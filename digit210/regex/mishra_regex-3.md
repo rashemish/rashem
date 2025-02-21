@@ -15,5 +15,6 @@ Replace: `</p>\n<p>` *replaced each bank space so each text block is wrapped in 
 Find: `<p>([IVXLCDM]+\..+?)</p>` *found 29 chapter titles*
 Replace: `<title>\1</title>` *marked each chapter title with title element*
 
-Find: `` **
-Replace: `` **
+Find: `<title>.+?,</title>` **
+Replace: `<chapter>\n</chapter>\0` **
+`\1`
