@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../RelaxNG/TrueCrimeRelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
+<transcript>
+   <line type="dialogue">May ,</line>
+   <line type="dialogue">You're gonna sleep
+with mama tonight, okay?</line>
+   <line type="dialogue">Mama?</line>
+   <line type="dialogue">Uh-huh?</line>
+   <line type="dialogue">It's dark.</line>
+   <line type="dialogue">Shh.</line>
+   <line type="dialogue">It's gonna be okay.</line>
+   <line type="dialogue">Know why?</line>
+   <line type="dialogue">Cause Mama says so?</line>
+   <line type="dialogue">Yeah, 'cause mama says so.</line>
+   <line type="dialogue">Mama?</line>
+   <line type="dialogue">Uh-huh?</line>
+   <line type="dialogue">He's not coming back, right?</line>
+   <line type="dialogue">No, he's not.</line>
+   <line type="dialogue">Now go to sleep.</line>
+   <line type="dialogue">Mama?</line>
+   <line type="dialogue">What, Toya?</line>
+   <line type="dialogue">You don't gotta cry no more.</line>
+   <line type="dialogue">Kid dies on impact.</line>
+   <line type="dialogue">Mother survives only to
+lapse into a coma</line>
+   <line type="dialogue">a few hours after the attack.</line>
+   <line type="dialogue">Going on two years.</line>
+   <line type="dialogue">Two years in a coma?</line>
+   <line type="dialogue">Just saw your boy Kite
+at the courthouse.</line>
+   <line type="dialogue">ADA Kite?</line>
+   <line type="dialogue">Mm-hmm.</line>
+   <line type="dialogue">That was Billy Markins' job, right?</line>
+   <line type="dialogue">Yeah, years on,
+then hummer comes in.</line>
+   <line type="dialogue">Never got the doer.</line>
+   <line type="dialogue">Dead kid and her mom
+thrown out a window.</line>
+   <line type="dialogue">How old's the job?</line>
+   <line type="dialogue">He asked about you.</line>
+   <line type="dialogue">Kite.</line>
+   <line type="dialogue">Yo, pass the ketchup?</line>
+   <line type="dialogue">Remember that picture Markins
+had on his wall?</line>
+   <line type="dialogue">Yeah. Mom and a kid making a snowman.</line>
+   <line type="dialogue">That's the job?</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">Only case he left open when he retired.</line>
+   <line type="dialogue">What? So the assigned worked it good,
+but got nada for his efforts?</line>
+   <line type="dialogue">His only witness was in a coma.</line>
+   <line type="dialogue">Mm.</line>
+   <line type="dialogue">What did he ask? Kite.</line>
+   <line type="dialogue">Where you were.</line>
+   <line type="dialogue">You getting a social life
+going or something.</line>
+   <line type="dialogue">No way.</line>
+   <line type="dialogue">Good.</line>
+   <line type="dialogue">This Miles case has new direction.</line>
+   <line type="dialogue">Yeah?</line>
+   <line type="dialogue">Why're we interested now?</line>
+   <line type="dialogue">Because the mom just woke up.</line>
+   <line type="dialogue">How long has she been awake?</line>
+   <line type="dialogue">hours.</line>
+   <line type="dialogue">She talking?</line>
+   <line type="dialogue">She has lucid but minimal
+verbal function.</line>
+   <line type="dialogue">She hasn't spoken of the incident</line>
+   <line type="dialogue">with her daughter yet.</line>
+   <line type="dialogue">Some people here to
+see you, Miss Miles.</line>
+   <line type="dialogue">Hi, Rosie.</line>
+   <line type="dialogue">I'm Detective Rush.</line>
+   <line type="dialogue">Detective Valens.</line>
+   <line type="dialogue">How you doing?</line>
+   <line type="dialogue">Rosie, we're here to talk
+to you about what happened.</line>
+   <line type="dialogue">To you and Toya.</line>
+   <line type="dialogue">Your little girl?</line>
+   <line type="dialogue">Toya...</line>
+   <line type="dialogue">Toya?</line>
+   <line type="dialogue">Is that what you're saying?</line>
+   <line type="dialogue">Butterflies.</line>
+   <line type="dialogue">Toya and... and butterflies...</line>
+   <line type="dialogue">They hurt...</line>
+   <line type="dialogue">They hurt... they hurt, Mama.</line>
+   <line type="dialogue">Bruises on her...</line>
+   <line type="dialogue">Toya had butterfly wings and bruises?</line>
+   <line type="dialogue">On her arms.</line>
+   <line type="dialogue">And... he bruised her up.</line>
+   <line type="dialogue">Who did?</line>
+   <line type="dialogue">The man.</line>
+   <line type="dialogue">What man, Rosie?</line>
+   <line type="dialogue">The one in...</line>
+   <line type="dialogue">one in the bedroom.</line>
+   <line type="dialogue">He would put bruises on her...</line>
+   <line type="dialogue">when she wouldn't smile at him.</line>
+   <line type="dialogue">Did you know him before that night?</line>
+   <line type="dialogue">What night?</line>
+   <line type="dialogue">The night Toya...</line>
+   <line type="dialogue">The night of the accident, Rosie.</line>
+   <line type="dialogue">What accident?</line>
+   <line type="dialogue">Doesn't she know?</line>
+   <line type="dialogue">I... I'm not sure.</line>
+   <line type="dialogue">Know what?</line>
+   <line type="dialogue">What am I supposed to know?</line>
+   <line type="dialogue">So, bruises and butterflies?</line>
+   <line type="dialogue">That's all Rosie remembers right now.</line>
+   <line type="dialogue">Long-term memory's intact,</line>
+   <line type="dialogue">but whatever went on that night...</line>
+   <line type="dialogue">Gone.</line>
+   <line type="dialogue">She didn't even know Toya was dead.</line>
+   <line type="dialogue">Gone forever?</line>
+   <line type="dialogue">Yeah. If she gets it back,
+it'll come piecemeal.</line>
+   <line type="dialogue">Doctor says this type of
+amnesia's emotional,</line>
+   <line type="dialogue">not physical, so she should remember...</line>
+   <line type="dialogue">The question is : Does she want to?</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">Rosie said the man in the bedroom</line>
+   <line type="dialogue">bruised up Toya when
+she wouldn't smile.</line>
+   <line type="dialogue">Implying they knew him.</line>
+   <line type="dialogue">Yeah, but the assigned</line>
+   <line type="dialogue">thought the doer was a stranger.</line>
+   <line type="dialogue">You trade thoughts with Markins yet?</line>
+   <line type="dialogue">Caught up with him between
+tee times in Myrtle Beach.</line>
+   <line type="dialogue">His theory was burglary gone bad.</line>
+   <line type="dialogue">The doer's on crack,
+PCP breaks into the apartment,</line>
+   <line type="dialogue">not expecting Rosie to wake up.</line>
+   <line type="dialogue">She does, he panics,
+and kills them both.</line>
+   <line type="dialogue">call came in at : p.m.,</line>
+   <line type="dialogue">few minutes after Rosie
+and Toya hit the ground.</line>
+   <line type="dialogue">Voice was a black
+male, never I.D.'d.</line>
+   <line type="dialogue">Plus Rosie's landlady</line>
+   <line type="dialogue">reported a black male
+running from the scene.</line>
+   <line type="dialogue">Black man hauling a*s</line>
+   <line type="dialogue">through lily-white Port Richmond?</line>
+   <line type="dialogue">Stands out like Vera in a bikini.</line>
+   <line type="dialogue">Well, theory's decent.</line>
+   <line type="dialogue">Forced entry, struggle
+in the bedroom, missing VCR.</line>
+   <line type="dialogue">I don't know</line>
+   <line type="dialogue">what the butterflies mean.</line>
+   <line type="dialogue">And I don't see any bruises on Toya.</line>
+   <line type="dialogue">Find the man in the bedroom,</line>
+   <line type="dialogue">I bet you'll get some answers.</line>
+   <line type="dialogue">Case number .</line>
+   <line type="dialogue">I was Rosie Miles'
+court ordered supervisor</line>
+   <line type="dialogue">for, uh... for ten months.</line>
+   <line type="dialogue">Court ordered, Mr. Freely?</line>
+   <line type="dialogue">Yeah, Rosie got a DUI three years ago.</line>
+   <line type="dialogue">Judge didn't take the kid away,</line>
+   <line type="dialogue">but he assigned me
+to be her caseworker.</line>
+   <line type="dialogue">Rosie have a drinking problem?</line>
+   <line type="dialogue">Pregnant at , dad's MIA
+before her baby's born.</line>
+   <line type="dialogue">She realizes all she's got
+to look forward to in life</line>
+   <line type="dialogue">is Pampers and stretch marks,</line>
+   <line type="dialogue">she finds God at the
+bottom of a forty.</line>
+   <line type="dialogue">She ever hit Toya?</line>
+   <line type="dialogue">No.</line>
+   <line type="dialogue">Ever notice any bruises?</line>
+   <line type="dialogue">Never. No, the court would have
+taken her away if she did.</line>
+   <line type="dialogue">That's what I was there for.</line>
+   <line type="dialogue">You were at Rosie's apartment
+the day of the m*rder, right?</line>
+   <line type="dialogue">Yeah, we call them
+unannounced home visits.</line>
+   <line type="dialogue">Rosie's snoring,  TV's blasting,</line>
+   <line type="dialogue">kid's eating Ho Hos
+for breakfast, the usual.</line>
+   <line type="dialogue">But you said in your report</line>
+   <line type="dialogue">that everything was satisfactory.</line>
+   <line type="dialogue">According to department
+guidelines, it was.</line>
+   <line type="dialogue">Did she have a boyfriend
+might've hurt Toya?</line>
+   <line type="dialogue">I don't think Rosie
+liked men all that much.</line>
+   <line type="dialogue">Is that a fact?</line>
+   <line type="dialogue">I don't mean gay, just, uh...</line>
+   <line type="dialogue">Most of these girls...</line>
+   <line type="dialogue">Big Mac and supersize fries.</line>
+   <line type="dialogue">But Rosie...</line>
+   <line type="dialogue">it was like she just
+shut that door forever.</line>
+   <line type="dialogue">Toya loved to draw.</line>
+   <line type="dialogue">I never had the heart
+to throw them away.</line>
+   <line type="dialogue">You saw Toya and her mother
+the day of the m*rder.</line>
+   <line type="dialogue">At a school play?</line>
+   <line type="dialogue">Yes. We do that play every year</line>
+   <line type="dialogue">The Flight of the
+Monarch Butterflies."</line>
+   <line type="dialogue">The play was about butterflies?</line>
+   <line type="dialogue">It was. Yes.</line>
+   <line type="dialogue">Can you tell us what
+you remember from that day?</line>
+   <line type="dialogue">Toya remembered all her lines.</line>
+   <line type="dialogue">She was the only one.</line>
+   <line type="music">♪ Little monarch butterfly ♪</line>
+   <line type="music">♪ Spread your wings and flutter high ♪</line>
+   <line type="music">♪ Touch the sun and kiss the sky ♪</line>
+   <line type="music">♪ Fly away, my butterfly ♪</line>
+   <line type="music">♪ Little monarch butterfly ♪</line>
+   <line type="music">♪ Spread your wings and flutter high ♪</line>
+   <line type="dialogue">Why was Rosie crying?</line>
+   <line type="dialogue">I don't know.</line>
+   <line type="dialogue">Did you ever see any marks
+on Toya's arms, Mrs. Jablonski?</line>
+   <line type="dialogue">Bruises?</line>
+   <line type="dialogue">Signs of abuse?</line>
+   <line type="dialogue">No. We're trained to
+look for those things.</line>
+   <line type="dialogue">That's not something</line>
+   <line type="dialogue">you forget, Detective.</line>
+   <line type="dialogue">Two years is a long time to remember.</line>
+   <line type="dialogue">Toya always came to school with a lunch.</line>
+   <line type="dialogue">Clean clothes.</line>
+   <line type="dialogue">She was a happy child.</line>
+   <line type="dialogue">Loved.</line>
+   <line type="dialogue">That's not something</line>
+   <line type="dialogue">you forget either...
+not around here.</line>
+   <line type="dialogue">So this is the bedroom</line>
+   <line type="dialogue">where the m*rder took place?</line>
+   <line type="dialogue">Yup. No renter since Rosie.</line>
+   <line type="dialogue">Except my brother.</line>
+   <line type="dialogue">Comes from Poland, stays here.</line>
+   <line type="dialogue">God. Shut up, damn dogs. Be quiet!</line>
+   <line type="dialogue">Hate those dogs.</line>
+   <line type="dialogue">That wasn't in the crime scene photos.</line>
+   <line type="dialogue">Maybe a cable line.</line>
+   <line type="dialogue">Too big.</line>
+   <line type="dialogue">And too high up.</line>
+   <line type="dialogue">What happened to the bookshelf
+that was against this wall, Tammy?</line>
+   <line type="dialogue">Oh. My place.</line>
+   <line type="dialogue">Oh, yeah?</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">I keep it for Rosie. So what?</line>
+   <line type="dialogue">Ever see any bruises on Toya?</line>
+   <line type="dialogue">Bruises? No, no, no.</line>
+   <line type="dialogue">Rosie never touch that girl.</line>
+   <line type="dialogue">Never. Never. Uh-uh.</line>
+   <line type="dialogue">Maybe one of her boyfriends did.</line>
+   <line type="dialogue">Says here you saw someone</line>
+   <line type="dialogue">running from the building that night.</line>
+   <line type="dialogue">Yeah. Black.</line>
+   <line type="dialogue">He run and run and run.</line>
+   <line type="dialogue">Maybe he was her boyfriend.</line>
+   <line type="dialogue">Right. When pigs fly.</line>
+   <line type="dialogue">Rosie got a problem with black man?</line>
+   <line type="dialogue">No, I got a problem.</line>
+   <line type="dialogue">My building, my rules.</line>
+   <line type="dialogue">Okay?</line>
+   <line type="dialogue">Men at Rosie's that night? Yes.</line>
+   <line type="dialogue">Black in my building? No.</line>
+   <line type="dialogue">Men at Rosie's? What night?</line>
+   <line type="dialogue">The night Toya falls.</line>
+   <line type="dialogue">I hear men voices.</line>
+   <line type="dialogue">The night she died?</line>
+   <line type="dialogue">Yeah. In and out, climb up,
+down the stairs.</line>
+   <line type="dialogue">You didn't mention that two years ago.</line>
+   <line type="dialogue">I see black run.</line>
+   <line type="dialogue">I told about black.</line>
+   <line type="dialogue">Black did it.</line>
+   <line type="dialogue">You see men come up in
+this place a lot, Tammy?</line>
+   <line type="dialogue">No.</line>
+   <line type="dialogue">But one bedroom apartment... come on.</line>
+   <line type="dialogue">Toya sleeps on the couch, I think.</line>
+   <line type="dialogue">Wait. Rosie made her kid</line>
+   <line type="dialogue">sleep in the living room?</line>
+   <line type="dialogue">So Rosie keep the bedroom
+for herself for reason, no?</line>
+   <line type="dialogue">But I don't make judgement.</line>
+   <line type="dialogue">Like you are.</line>
+   <line type="dialogue">Like now.</line>
+   <line type="dialogue">We got a uniform
+posted at the hospital?</line>
+   <line type="dialogue">Yeah. No visitors for Rosie yet.</line>
+   <line type="dialogue">No family?</line>
+   <line type="dialogue">Mm-mm. Parents are dead.</line>
+   <line type="dialogue">This job ain't coming in, boss.</line>
+   <line type="dialogue">We got nothing.</line>
+   <line type="dialogue">We got a witness.</line>
+   <line type="dialogue">Whose hard drive's been erased.</line>
+   <line type="dialogue">Bruises and butterflies",</line>
+   <line type="dialogue">that's her big contribution.</line>
+   <line type="dialogue">It's more than Markins had.</line>
+   <line type="dialogue">How do we know we can trust it?</line>
+   <line type="dialogue">The bruises didn't pan out.</line>
+   <line type="dialogue">Well, the butterflies meant something.</line>
+   <line type="dialogue">Keep looking at the bruises.</line>
+   <line type="dialogue">CSU figured out the hole in the wall.</line>
+   <line type="dialogue">Rosie's living room.</line>
+   <line type="dialogue">The missing VCR went on top of the  TV.</line>
+   <line type="dialogue">Okay, living room again.</line>
+   <line type="dialogue">Missing VCR cables must
+have run through this hole</line>
+   <line type="dialogue">leaving these tiny black streaks.</line>
+   <line type="dialogue">CSU says it's the same rubber
+used in VCR cables.</line>
+   <line type="dialogue">So the cable from the VCR</line>
+   <line type="dialogue">in the living room connected to what?</line>
+   <line type="dialogue">Something in the bedroom.</line>
+   <line type="dialogue">I don't see anything
+it could have been connected to.</line>
+   <line type="dialogue">Maybe because it was hidden.</line>
+   <line type="dialogue">What do you connect
+a VCR to if not a TV?</line>
+   <line type="dialogue">A video camera.</line>
+   <line type="dialogue">Why did Rosie have a video
+camera in her bedroom?</line>
+   <line type="dialogue">Was she making porn?</line>
+   <line type="dialogue">Blackmailing someone?</line>
+   <line type="dialogue">Doer's married, having a fling.</line>
+   <line type="dialogue">Rosie threatens to tell the wife.</line>
+   <line type="dialogue">Except Rosie's bank account
+totaled a whopping</line>
+   <line type="dialogue">that spell
+extortion to you?</line>
+   <line type="dialogue">On public assistence,</line>
+   <line type="dialogue">you can't have more than
+a few hundred bucks in the bank.</line>
+   <line type="dialogue">That makes saving easy.</line>
+   <line type="dialogue">Welcome to welfare.</line>
+   <line type="dialogue">If Rosie was squirreling away a stash,</line>
+   <line type="dialogue">she'd have to hide it real good.</line>
+   <line type="dialogue">Or lose the food stamps.</line>
+   <line type="dialogue">Check her belongings for video tapes.</line>
+   <line type="dialogue">You and Vera try pawnshops
+in Port Richmond</line>
+   <line type="dialogue">for the camera and VCR.</line>
+   <line type="dialogue">If we find the tape,
+maybe we find the doer.</line>
+   <line type="dialogue">Real nice of Tammy to let us in.</line>
+   <line type="dialogue">Hmm.</line>
+   <line type="dialogue">Real nice of her to keep
+Rosie's furniture.</line>
+   <line type="dialogue">How come you don't like Rosie?</line>
+   <line type="dialogue">I like her fine.</line>
+   <line type="dialogue">Cause she got a DUI?</line>
+   <line type="dialogue">With Toya in the car.</line>
+   <line type="dialogue">Well, she shaped up after that.</line>
+   <line type="dialogue">Paid the price.</line>
+   <line type="dialogue">Only one that paid was her kid, Scotty.</line>
+   <line type="dialogue">Yeah, well...</line>
+   <line type="dialogue">I think Rosie paid, too.</line>
+   <line type="dialogue">Look what I found.</line>
+   <line type="dialogue">Blank pages, all of them.</line>
+   <line type="dialogue">So?</line>
+   <line type="dialogue">Wonder why this page is missing?</line>
+   <line type="dialogue">As luck would have it,</line>
+   <line type="dialogue">we purchased this
+model six months ago.</line>
+   <line type="dialogue">What's it do?</line>
+   <line type="dialogue">Clarifies residuum</line>
+   <line type="dialogue">otherwise imperceptible
+to the naked eye.</line>
+   <line type="dialogue">Talk down to me.</line>
+   <line type="dialogue">It sees the imprint
+from your missing page.</line>
+   <line type="dialogue">It's the high-tech version</line>
+   <line type="dialogue">of rubbing a pencil against a pad.</line>
+   <line type="dialogue">Like that, yeah.</line>
+   <line type="dialogue">Hope you got gloves.
+It's freezing out there.</line>
+   <line type="dialogue">Hmm.</line>
+   <line type="dialogue">Any luck in the pawn shops?</line>
+   <line type="dialogue">Yeah, we tracked a VCR and camera,</line>
+   <line type="dialogue">same make and model as Rosie's.</line>
+   <line type="dialogue">Pete's pawnshop in Port Richmond.</line>
+   <line type="dialogue">Rosie's hood.</line>
+   <line type="dialogue">Guy dumped it almost a year
+after the m*rder.</line>
+   <line type="dialogue">Heat was off by then.</line>
+   <line type="dialogue">Petey's got a slip for
+a guy named Angel.</line>
+   <line type="dialogue">No last name.</line>
+   <line type="dialogue">Angel?</line>
+   <line type="dialogue">Eh, could be a dead end.</line>
+   <line type="dialogue">Or not.</line>
+   <line type="dialogue">Traced a missing page
+from Rosie's address book.</line>
+   <line type="dialogue">Disconnected page number
+for an Angel Rivera.</line>
+   <line type="dialogue">Janitor at Toya's school.</line>
+   <line type="dialogue">Angel Rivera?</line>
+   <line type="dialogue">Detectives Rush, Valens.</line>
+   <line type="dialogue">Homicide.</line>
+   <line type="dialogue">You know a Rosie Miles, Angel?</line>
+   <line type="dialogue">A who?</line>
+   <line type="dialogue">Wonder why she'd have
+his pager number?</line>
+   <line type="dialogue">He not knowing her and all.</line>
+   <line type="dialogue">Maybe 'cause he's lying?</line>
+   <line type="dialogue">Yeah. Whatever.</line>
+   <line type="dialogue">So, who's Jasmine Cordoba?</line>
+   <line type="dialogue">What's she got to do with it?</line>
+   <line type="dialogue">That your girlfriend, Angel?</line>
+   <line type="dialogue">Hear she pays your rent,
+utilities, your car.</line>
+   <line type="dialogue">You make your woman</line>
+   <line type="dialogue">pay the bills?</line>
+   <line type="dialogue">Must be packing some kind of punch</line>
+   <line type="dialogue">in those baggies, huh, Angel?</line>
+   <line type="dialogue">You wanna find out?</line>
+   <line type="dialogue">Make a move.</line>
+   <line type="dialogue">Cept Jasmine ain't his girlfriend.</line>
+   <line type="dialogue">No?</line>
+   <line type="dialogue">Nah.</line>
+   <line type="dialogue">She's his mama.</line>
+   <line type="dialogue">Ooh...</line>
+   <line type="dialogue">She do your laundry, too?</line>
+   <line type="dialogue">Wash your diapers, papi?</line>
+   <line type="dialogue">Help you make number two on the potty?</line>
+   <line type="dialogue">I live with my ma; so what?</line>
+   <line type="dialogue">Your mother's here illegally.</line>
+   <line type="dialogue">We ain't gonna let Immigration know.</line>
+   <line type="dialogue">You help us out.</line>
+   <line type="dialogue">Me and Rosie, a few times.</line>
+   <line type="dialogue">It wasn't nothing.</line>
+   <line type="dialogue">She feel the same way?</line>
+   <line type="dialogue">She wanted this, wanted that.</line>
+   <line type="dialogue">Keep an eye on my kid, Angel.</line>
+   <line type="dialogue">Make sure she don't fall off
+the Jungle gym, Angel."</line>
+   <line type="dialogue">I was in it for the sumpin' sumpin',</line>
+   <line type="dialogue">not to be playin' papi.</line>
+   <line type="dialogue">You seeing Rosie</line>
+   <line type="dialogue">when her kid got k*lled?</line>
+   <line type="dialogue">Nah. Kicked her to the curb</line>
+   <line type="dialogue">way back when.</line>
+   <line type="dialogue">Hooked up with Gina.</line>
+   <line type="dialogue">Gave old white girl the boot.</line>
+   <line type="dialogue">Then what were you doing</line>
+   <line type="dialogue">in white girl's apartment that night?</line>
+   <line type="dialogue">We got your prints</line>
+   <line type="dialogue">on her video camera, Angel.</line>
+   <line type="dialogue">You know,</line>
+   <line type="dialogue">the one you pawned?</line>
+   <line type="dialogue">That day her kid was... whatever,</line>
+   <line type="dialogue">I see Rosie in the school.</line>
+   <line type="dialogue">At Toya's butterfly play?</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">Crying and acting stupid.</line>
+   <line type="dialogue">Rosie was making a phone call?</line>
+   <line type="dialogue">Yeah. Then she sees me, hangs up,</line>
+   <line type="dialogue">starts blubbering in my face
+about butterflies</line>
+   <line type="dialogue">and some guy's gonna hurt her,</line>
+   <line type="dialogue">blase blah.</line>
+   <line type="dialogue">What guy?</line>
+   <line type="dialogue">I don't know; I told her to step off.</line>
+   <line type="dialogue">You know mean, not my problem.</line>
+   <line type="dialogue">Rosie freaks.</line>
+   <line type="dialogue">She starts shouting, screaming</line>
+   <line type="dialogue">how she's got some tape... us in bed.</line>
+   <line type="dialogue">If I don't help her, she's gonna</line>
+   <line type="dialogue">tell Gina, blase blah.</line>
+   <line type="dialogue">Pissed you off, huh?</line>
+   <line type="dialogue">Hell, ye.</line>
+   <line type="dialogue">So, you went over there that night</line>
+   <line type="dialogue">and taught her a lesson, right?</line>
+   <line type="dialogue">Hell, yeah.</line>
+   <line type="dialogue">Mommy!</line>
+   <line type="dialogue">Angel. Jesus.</line>
+   <line type="dialogue">Get out of here!</line>
+   <line type="dialogue">What are you doing?</line>
+   <line type="dialogue">Mommy.</line>
+   <line type="dialogue">You're scaring Toya.</line>
+   <line type="dialogue">Angel, got out of here!</line>
+   <line type="dialogue">Mommy!</line>
+   <line type="dialogue">Are you gonna tape me, b*tch.</line>
+   <line type="dialogue">Don't you hurt my mama!</line>
+   <line type="dialogue">I'm gonna call the cops, Angel.</line>
+   <line type="dialogue">No, no, not that tape.</line>
+   <line type="dialogue">Not that.</line>
+   <line type="dialogue">Don't do that.</line>
+   <line type="dialogue">Mommy.</line>
+   <line type="dialogue">Not that.</line>
+   <line type="dialogue">And then I left.</line>
+   <line type="dialogue">Truth is, I didn't care
+enough to k*ll them.</line>
+   <line type="dialogue">Cared enough to hit her.</line>
+   <line type="dialogue">I didn't hit her; I pushed her.</line>
+   <line type="dialogue">Out the window?</line>
+   <line type="dialogue">I didn't do nothing!</line>
+   <line type="dialogue">I got the tape to prove it.</line>
+   <line type="dialogue">What tape?</line>
+   <line type="dialogue">Tape from that night</line>
+   <line type="dialogue">I ain't on it.</line>
+   <line type="dialogue">So, that's proof I ain't do nothing.</line>
+   <line type="dialogue">Nothing but pawn</line>
+   <line type="dialogue">her VCR and camera a year later.</line>
+   <line type="dialogue">Where's this tape you got, Angel?</line>
+   <line type="dialogue">This was recorded in
+your apartment, Rosie.</line>
+   <line type="dialogue">It's a security camera.</line>
+   <line type="dialogue">Who's that man?</line>
+   <line type="dialogue">That's what we were
+hoping you'd tell us.</line>
+   <line type="dialogue">I don't know.</line>
+   <line type="dialogue">You remember this camera, Rosie?</line>
+   <line type="dialogue">You had it in your bedroom.</line>
+   <line type="dialogue">I did?</line>
+   <line type="dialogue">You remember someone named Angel?</line>
+   <line type="dialogue">You told him someone
+was out to hurt you.</line>
+   <line type="dialogue">You asked Angel for help that day.</line>
+   <line type="dialogue">If I don't remember who he is,</line>
+   <line type="dialogue">how am I gonna remember
+what I said to him?</line>
+   <line type="dialogue">We're trying to help, Rosie.</line>
+   <line type="dialogue">What for?</line>
+   <line type="dialogue">So you can get your memory back.</line>
+   <line type="dialogue">Like I said... what for?</line>
+   <line type="dialogue">Let's go.</line>
+   <line type="dialogue">It's not mine.</line>
+   <line type="dialogue">It's hers.</line>
+   <line type="dialogue">It's Toya's.</line>
+   <line type="dialogue">What's Toya's?</line>
+   <line type="dialogue">The bedroom.</line>
+   <line type="dialogue">It's Toya's bedroom.</line>
+   <line type="dialogue">I remember that now.</line>
+   <line type="dialogue">Why does Rosie put</line>
+   <line type="dialogue">a security camera in
+her daughter's bedroom?</line>
+   <line type="dialogue">Worried something's
+happening to Toya there.</line>
+   <line type="dialogue">Nothing the autopsy report</line>
+   <line type="dialogue">says any about sexual abuse.</line>
+   <line type="dialogue">Well, maybe it was just starting.</line>
+   <line type="dialogue">And that's why the camera.</line>
+   <line type="dialogue">Rosie knew what he was doing.</line>
+   <line type="dialogue">She was trying to stop him.</line>
+   <line type="dialogue">And maybe he's trying to stop her</line>
+   <line type="dialogue">from ratting him out.</line>
+   <line type="dialogue">Ten G's buys a lot of
+"don't ask, don't tell."</line>
+   <line type="dialogue">I found the bank account</line>
+   <line type="dialogue">under Rosie's social security number</line>
+   <line type="dialogue">and her name.</line>
+   <line type="dialogue">The assigned missed that?</line>
+   <line type="dialogue">Didn't exist till three days ago.</line>
+   <line type="dialogue">When Rosie woke up.</line>
+   <line type="dialogue">Who set up the account?</line>
+   <line type="dialogue">McLean Wykowski.</line>
+   <line type="dialogue">Foreman, Mills Lightman Construction.</line>
+   <line type="dialogue">No record.</line>
+   <line type="dialogue">What's his connection to Rosie?</line>
+   <line type="dialogue">Wife's maiden name... Miles.</line>
+   <line type="dialogue">Lorraine Miles.</line>
+   <line type="dialogue">He's Rosie's dad.</line>
+   <line type="dialogue">So, Rosie tells you</line>
+   <line type="dialogue">her folks died, and you
+don't check that out?</line>
+   <line type="dialogue">With the number of cases I got,
+it comes down to triage.</line>
+   <line type="dialogue">You keep a roof over their heads,</line>
+   <line type="dialogue">you keep the food stamps coming in.</line>
+   <line type="dialogue">So, where do we look</line>
+   <line type="dialogue">for suspected physical,
+sexual abuse, huh?</line>
+   <line type="dialogue">Hospital admissions,</line>
+   <line type="dialogue">uh, foster care reports.</line>
+   <line type="dialogue">All miscellaneous stuff
+we didn't get to.</line>
+   <line type="dialogue">This cabinet, Mr. Freely?</line>
+   <line type="dialogue">All of this.</line>
+   <line type="dialogue">There are only so
+many hours in the day.</line>
+   <line type="dialogue">And so many kids.</line>
+   <line type="dialogue">How do we find Toya in all of this?</line>
+   <line type="dialogue">M" for Miles.</line>
+   <line type="dialogue">Familiar territory?</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">You knew that food stamp
+drill pretty good.</line>
+   <line type="dialogue">Case number .</line>
+   <line type="dialogue">Ellen Rush, two dependents.</line>
+   <line type="dialogue">Valens.</line>
+   <line type="dialogue">Uh, McLean? You bringing him in?</line>
+   <line type="dialogue">Good.</line>
+   <line type="dialogue">Jeffries and Vera just picked up
+Rosie's dad at the shipyard.</line>
+   <line type="dialogue">What do you got?</line>
+   <line type="dialogue">M" for Miles.</line>
+   <line type="dialogue">That's why Rosie saw the bruises.</line>
+   <line type="dialogue">That picture don't look like Toya.</line>
+   <line type="dialogue">It's not.</line>
+   <line type="dialogue">It's Rosie.</line>
+   <line type="dialogue">When was the last time</line>
+   <line type="dialogue">you saw your daughter, McLean?</line>
+   <line type="dialogue">Five,</line>
+   <line type="dialogue">six years. Lost track.</line>
+   <line type="dialogue">And you never visited Rosie</line>
+   <line type="dialogue">all the time she was in the hospital?</line>
+   <line type="dialogue">Then why'd you set up
+an account for her...</line>
+   <line type="dialogue">you not givin' a crap and all?</line>
+   <line type="dialogue">I'm her pops. I wanted to help her.</line>
+   <line type="dialogue">Or shut her up.</line>
+   <line type="dialogue">You know how Toya died?</line>
+   <line type="dialogue">Backbone busted to bits.</line>
+   <line type="dialogue">Skull, too.</line>
+   <line type="dialogue">Oh, no open casket for her.</line>
+   <line type="dialogue">Violent guy who'd do
+something like that, huh?</line>
+   <line type="dialogue">I wouldn't know.</line>
+   <line type="dialogue">Hit me.</line>
+   <line type="dialogue">Show me what you did to Rosie
+when she was little girl.</line>
+   <line type="dialogue">Come on. You like hittin' girls.</line>
+   <line type="dialogue">Hit me.</line>
+   <line type="dialogue">Gonorrhea when she was eight.</line>
+   <line type="dialogue">Again when she was ten.</line>
+   <line type="dialogue">You did a lot more than
+just hit Rosie, didn't you?</line>
+   <line type="dialogue">Rosie made a call
+at the school that day.</line>
+   <line type="dialogue">We traced it to the shipyard, to you.</line>
+   <line type="dialogue">What'd she call you about?</line>
+   <line type="dialogue">Talkin' crazy, like she was drunk.</line>
+   <line type="dialogue">Goin' on about butterflies.</line>
+   <line type="dialogue">And that someone was
+gonna hurt Toya, right?</line>
+   <line type="dialogue">So you went there that night.</line>
+   <line type="dialogue">No, I-I went home.</line>
+   <line type="dialogue">Tell them</line>
+   <line type="dialogue">you went home, after Rosie called,</line>
+   <line type="dialogue">begging for help.</line>
+   <line type="dialogue">I did.</line>
+   <line type="dialogue">Don't look at me.</line>
+   <line type="dialogue">Look at them.</line>
+   <line type="dialogue">You tell Toya.</line>
+   <line type="dialogue">Tell Rosie.</line>
+   <line type="dialogue">You tell them, not me.</line>
+   <line type="dialogue">I-I-I sat outside
+her place in the dark...</line>
+   <line type="dialogue">and I-I-I didn't go there</line>
+   <line type="dialogue">'cause I thought she was in trouble.</line>
+   <line type="dialogue">Then why'd you go?</line>
+   <line type="dialogue">To tell her I was sorry...</line>
+   <line type="dialogue">for when she was little...</line>
+   <line type="dialogue">for what I done.</line>
+   <line type="dialogue">I sat outside her place,</line>
+   <line type="dialogue">but I couldn't go in.</line>
+   <line type="dialogue">So you saw some pizza delivery guy</line>
+   <line type="dialogue">go up to Rosie's place.</line>
+   <line type="dialogue">What'd this guy look like?</line>
+   <line type="dialogue">Young guy.</line>
+   <line type="dialogue">Black guy.</line>
+   <line type="dialogue">Did a black man come
+over that night, Rosie,</line>
+   <line type="dialogue">maybe... delivering a pizza?</line>
+   <line type="dialogue">Maybe you were seeing him?</line>
+   <line type="dialogue">How about this, uh,</line>
+   <line type="dialogue">ponytail guy?</line>
+   <line type="dialogue">You starting to recognize him?</line>
+   <line type="dialogue">Maybe you met him at a bar...</line>
+   <line type="dialogue">a club?</line>
+   <line type="dialogue">That wasn't me.</line>
+   <line type="dialogue">What you're saying...</line>
+   <line type="dialogue">that wasn't how it was.</line>
+   <line type="dialogue">Then tell us, Rosie,</line>
+   <line type="dialogue">how it was.</line>
+   <line type="dialogue">Uh, Toya...</line>
+   <line type="dialogue">loved her... her...</line>
+   <line type="dialogue">butterfly wind chimes.</line>
+   <line type="dialogue">I put'em up in a window... for her.</line>
+   <line type="dialogue">Then he'd come</line>
+   <line type="dialogue">at night...</line>
+   <line type="dialogue">late at night.</line>
+   <line type="dialogue">Who would?</line>
+   <line type="dialogue">The man who gave Toya the wind chimes.</line>
+   <line type="dialogue">They ain't optimistic
+'bout getting prints</line>
+   <line type="dialogue">off of them chimes.</line>
+   <line type="dialogue">I know.</line>
+   <line type="dialogue">Well, maybe we get lucky.</line>
+   <line type="dialogue">If not... well, we'll
+get something else tomorrow.</line>
+   <line type="dialogue">Yeah, well, maybe Rosie's
+better off not knowing.</line>
+   <line type="dialogue">Not knowing what?</line>
+   <line type="dialogue">How she was with Toya,</line>
+   <line type="dialogue">how they lived.</line>
+   <line type="dialogue">They were doing okay.</line>
+   <line type="dialogue">What, on welfare, with a DUI?</line>
+   <line type="dialogue">People make mistakes.</line>
+   <line type="dialogue">They clean up.</line>
+   <line type="dialogue">Your mom ever forget to feed you...</line>
+   <line type="dialogue">cause she was too drunk... or tired...</line>
+   <line type="dialogue">or out looking for a man?</line>
+   <line type="dialogue">Nah.</line>
+   <line type="dialogue">Toya's a dime a dozen.</line>
+   <line type="dialogue">Unwanted kid.</line>
+   <line type="dialogue">Mom runs out of food
+stamps, makes an excuse</line>
+   <line type="dialogue">why there's no dinner tonight...</line>
+   <line type="dialogue">or, uh, no breakfast, either,</line>
+   <line type="dialogue">so thank God for the free corn flakes</line>
+   <line type="dialogue">at school, if you get there early,</line>
+   <line type="dialogue">and maybe some kid'll give you
+scraps out of his lunch box</line>
+   <line type="dialogue">later on.</line>
+   <line type="dialogue">So your mom was going
+through bad times.</line>
+   <line type="dialogue">Scotty...</line>
+   <line type="dialogue">there was never a good time.</line>
+   <line type="dialogue">Oh, you're telling me not once
+did you have fun with your mom?</line>
+   <line type="dialogue">I mean, not once did you feel...</line>
+   <line type="dialogue">some kind of love?</line>
+   <line type="dialogue">Maybe tomorrow we bring
+Rosie home, huh?</line>
+   <line type="dialogue">If you can't do this...</line>
+   <line type="dialogue">No, I-I want to.</line>
+   <line type="dialogue">Mama?</line>
+   <line type="dialogue">Mama...</line>
+   <line type="dialogue">She was drawing.</line>
+   <line type="dialogue">She was... hiding and drawing...</line>
+   <line type="dialogue">Why was she hiding?</line>
+   <line type="dialogue">Because he's coming...</line>
+   <line type="dialogue">from there...</line>
+   <line type="dialogue">Rosie.</line>
+   <line type="dialogue">He was standing there.</line>
+   <line type="dialogue">It's just Scotty.</line>
+   <line type="dialogue">He's not gonna hurt you, okay?</line>
+   <line type="dialogue">He's not gonna hurt you.</line>
+   <line type="dialogue">Lil.</line>
+   <line type="dialogue">Look at this.</line>
+   <line type="dialogue">Kind of a ponytail guy.</line>
+   <line type="dialogue">Frely".</line>
+   <line type="dialogue">Freely.</line>
+   <line type="dialogue">Mr. Freely.</line>
+   <line type="dialogue">The social worker.</line>
+   <line type="dialogue">Cut your hair.</line>
+   <line type="dialogue">Big improvement.</line>
+   <line type="dialogue">Wanna see the rest?</line>
+   <line type="dialogue">I do. Play it.</line>
+   <line type="dialogue">Okay.</line>
+   <line type="dialogue">There's nothing on the tape.</line>
+   <line type="dialogue">Rosie tried that bluff on you.</line>
+   <line type="dialogue">Didn't work, though, did it?</line>
+   <line type="dialogue">I don't know, what you're, uh...</line>
+   <line type="dialogue">Cause you hadn't done anything to Toya...</line>
+   <line type="dialogue">not yet.</line>
+   <line type="dialogue">You were circling, though.</line>
+   <line type="dialogue">Moven' in.</line>
+   <line type="dialogue">And Rosie knew it...</line>
+   <line type="dialogue">cause she was real familiar</line>
+   <line type="dialogue">with the danger signs.</line>
+   <line type="dialogue">Rosie's, uh...</line>
+   <line type="dialogue">damaged goods,</line>
+   <line type="dialogue">if you haven't noticed that already.</line>
+   <line type="dialogue">You know what bugs me?</line>
+   <line type="dialogue">This camera's been in
+her place for weeks,</line>
+   <line type="dialogue">but she picks this day
+to go to people for help.</line>
+   <line type="dialogue">Why?</line>
+   <line type="dialogue">What happened on this day
+that was so different?</line>
+   <line type="dialogue">She caught you.</line>
+   <line type="dialogue">That morning,</line>
+   <line type="dialogue">starting your act with Toya.</line>
+   <line type="dialogue">That's crap.</line>
+   <line type="dialogue">And she threatened you.</line>
+   <line type="dialogue">I have a tape, Freely,
+back the hell off."</line>
+   <line type="dialogue">Oh, and that pissed you off.</line>
+   <line type="dialogue">Who was she, talking to you like that?</line>
+   <line type="dialogue">So that night, you went back...</line>
+   <line type="dialogue">No.</line>
+   <line type="dialogue">You used your position</line>
+   <line type="dialogue">to get in her home and
+check out her little girl.</line>
+   <line type="dialogue">Knowing</line>
+   <line type="dialogue">the power you had...</line>
+   <line type="dialogue">and Rosie wasn't the only one.</line>
+   <line type="dialogue">You were like God to these women.</line>
+   <line type="dialogue">You had the power to give, to take...</line>
+   <line type="dialogue">and you did.</line>
+   <line type="dialogue">Like anyone gives a damn.</line>
+   <line type="dialogue">Trailer park trash.</line>
+   <line type="dialogue">Welfare queens.</line>
+   <line type="dialogue">Like you care what happens to them.</line>
+   <line type="dialogue">They care.</line>
+   <line type="dialogue">Anita Jones,</line>
+   <line type="dialogue">Carmen Torres,</line>
+   <line type="dialogue">Dana Matthews,</line>
+   <line type="dialogue">Leena Young,</line>
+   <line type="dialogue">all their pretty little girls.</line>
+   <line type="dialogue">They're here.</line>
+   <line type="dialogue">They've come here to tell us all about...</line>
+   <line type="dialogue">Mr. Freely.</line>
+   <line type="dialogue">You wanna talk before they do?</line>
+   <line type="dialogue">Rosie, uh...</line>
+   <line type="dialogue">threatened me that morning...</line>
+   <line type="dialogue">but not with any tape.</line>
+   <line type="dialogue">Hello, little girl.</line>
+   <line type="dialogue">Where's your mommy?</line>
+   <line type="dialogue">Shower.</line>
+   <line type="dialogue">Mommy.</line>
+   <line type="dialogue">That's, uh...</line>
+   <line type="dialogue">Good little girls don't yell, do they?</line>
+   <line type="dialogue">Mommy says nobody can come in here.</line>
+   <line type="dialogue">Mr. Freely can.</line>
+   <line type="dialogue">You look pretty, Toya.</line>
+   <line type="dialogue">Okay.</line>
+   <line type="dialogue">Say,</line>
+   <line type="dialogue">Thank you, Mr. Freely."</line>
+   <line type="dialogue">Thank you, Mr. Freely.</line>
+   <line type="dialogue">You're a good, good girl.</line>
+   <line type="dialogue">Don't ya touch her!</line>
+   <line type="dialogue">I know what you're doing.</line>
+   <line type="dialogue">I know what you are!</line>
+   <line type="dialogue">Have you been drinking?</line>
+   <line type="dialogue">I can smell it on your breath, Rosie.</line>
+   <line type="dialogue">Get out. Get out of my house.</line>
+   <line type="dialogue">Judge isn't gonna look too
+kindly on that, you know.</line>
+   <line type="dialogue">Not with a DUI and all.</line>
+   <line type="dialogue">You know I stopped. I told you...</line>
+   <line type="dialogue">I tell you!</line>
+   <line type="dialogue">You don't tell me!</line>
+   <line type="dialogue">You drunk, dumb b*tch!</line>
+   <line type="dialogue">Oh, it's some answer,
+it's a... good thing I'm came here.</line>
+   <line type="dialogue">Oh, this place's all wreck.</line>
+   <line type="dialogue">How do you raise a
+child in this field?</line>
+   <line type="dialogue">Okay.</line>
+   <line type="dialogue">I was wrong, Mr. Freely.</line>
+   <line type="dialogue">I was wrong.</line>
+   <line type="dialogue">I've made my decision.</line>
+   <line type="dialogue">It's time to find a new home for Toya.</line>
+   <line type="dialogue">No.</line>
+   <line type="dialogue">I'm gonna have to take care</line>
+   <line type="dialogue">of that pretty little
+girl all by myself.</line>
+   <line type="dialogue">You just wait for the
+knock on the door, Rosie...</line>
+   <line type="dialogue">when you least expect it.</line>
+   <line type="dialogue">That's all I did.</line>
+   <line type="dialogue">And then I left.</line>
+   <line type="dialogue">Talk about that night, Freely.</line>
+   <line type="dialogue">When you went back.</line>
+   <line type="dialogue">I-I wasn't there...</line>
+   <line type="dialogue">I hate a liar, man.</line>
+   <line type="dialogue">Something you wanna see.</line>
+   <line type="dialogue">No prints on the chimes,
+but look at this.</line>
+   <line type="dialogue">P. Williams?</line>
+   <line type="dialogue">Who's that?</line>
+   <line type="dialogue">Philip Williams.</line>
+   <line type="dialogue">at the time of the m*rder.</line>
+   <line type="dialogue">He worked at Toya's school.</line>
+   <line type="dialogue">Doing arts and crafts
+with the first graders.</line>
+   <line type="dialogue">Making wind chimes.</line>
+   <line type="dialogue">Doesn't mean we got the wrong guy.</line>
+   <line type="dialogue">He worked as a Pizza delivery boy.</line>
+   <line type="dialogue">The guy the father was
+that night, dialing ...</line>
+   <line type="dialogue">running from the scene.</line>
+   <line type="dialogue">Philip Williams?</line>
+   <line type="dialogue">Detectives Rush, Valens.</line>
+   <line type="dialogue">Homicide.</line>
+   <line type="dialogue">I was wondering when you'd come.</line>
+   <line type="dialogue">You gonna arrest me this very minute,</line>
+   <line type="dialogue">or can I finish this play?</line>
+   <line type="dialogue">Why do you think we're
+here to arrest you?</line>
+   <line type="dialogue">m*rder one, second degree m*rder,</line>
+   <line type="dialogue">attempted m*rder, you pick.</line>
+   <line type="dialogue">Ends up in the same place.</line>
+   <line type="dialogue">Did you k*ll Toya, Philip?</line>
+   <line type="dialogue">Looks like it, doesn't it?</line>
+   <line type="dialogue">Then why call ?</line>
+   <line type="dialogue">If you didn't do it,
+why not come forward?</line>
+   <line type="dialogue">A black man running from the bodies</line>
+   <line type="dialogue">of a white woman and white child.</line>
+   <line type="dialogue">Would you?</line>
+   <line type="dialogue">What happend to you, Philip?</line>
+   <line type="dialogue">A" student, honors society,
+budding artist.</line>
+   <line type="dialogue">Then Toya Miles died</line>
+   <line type="dialogue">and you end up here.</line>
+   <line type="dialogue">At the bottom of the world.</line>
+   <line type="dialogue">What happened that night</line>
+   <line type="dialogue">brought you to a place
+you don't belong?</line>
+   <line type="dialogue">Leftovers.</line>
+   <line type="dialogue">They'd throw them out
+at the pizza place.</line>
+   <line type="dialogue">I'd bring them over to Toya,
+from time to time.</line>
+   <line type="dialogue">That night, when I went over,</line>
+   <line type="dialogue">Rosie's apartment door was busted open.</line>
+   <line type="dialogue">What happened then?</line>
+   <line type="dialogue">I opened the bedroom door.</line>
+   <line type="dialogue">Who was in the bedroom?</line>
+   <line type="dialogue">Who was there, Philip?</line>
+   <line type="dialogue">No one.</line>
+   <line type="dialogue">No one.</line>
+   <line type="dialogue">Hospital says I'm okay to go home.</line>
+   <line type="dialogue">I know.</line>
+   <line type="dialogue">But where's home?</line>
+   <line type="dialogue">I know why you were crying
+at the butterfly play.</line>
+   <line type="dialogue">Because you tried to stop Mr. Freely...</line>
+   <line type="dialogue">but you knew you couldn't...</line>
+   <line type="dialogue">cause men like him never stop.</line>
+   <line type="dialogue">No, they don't.</line>
+   <line type="dialogue">No one was there for you.</line>
+   <line type="dialogue">Not your dad,</line>
+   <line type="dialogue">not Angel.</line>
+   <line type="dialogue">Just you.</line>
+   <line type="dialogue">So you did the only thing you could.</line>
+   <line type="dialogue">I did?</line>
+   <line type="dialogue">Is that why you can't remember?</line>
+   <line type="dialogue">The DA won't press charges,</line>
+   <line type="dialogue">not after what you've gone through.</line>
+   <line type="dialogue">What did I do?</line>
+   <line type="dialogue">There's a place for you to go,</line>
+   <line type="dialogue">to heal.</line>
+   <line type="dialogue">Just for a little while, Rosie...</line>
+   <line type="dialogue">because you didn't mean</line>
+   <line type="dialogue">what you did.</line>
+   <line type="dialogue">What did I do?</line>
+   <line type="dialogue">Mama?</line>
+   <line type="dialogue">You just wait...</line>
+   <line type="dialogue">for the knock at the door, Rosie...</line>
+   <line type="dialogue">when you least expect it.</line>
+   <line type="dialogue">Mommy...?</line>
+   <line type="music">♪ Little monarch butterfly...♪</line>
+   <line type="dialogue">Mommy?</line>
+   <line type="dialogue">You sing. Sing, baby.</line>
+   <line type="dialogue">Sing.</line>
+   <line type="music">♪ Spread your wings ♪</line>
+   <line type="music">♪ And flutter high ♪</line>
+   <line type="music">♪ Touch the sun and kiss the sky ♪</line>
+   <line type="music">♪ Fly away, my butterfly ♪</line>
+   <line type="music">♪ DJ Sammy f. YanouÀÇ "Heaven" ♪</line>
+   <line type="music">♪ Oh - thinkin' about
+all our younger years ♪</line>
+   <line type="music">♪ There was only you and me ♪</line>
+   <line type="music">♪ We were young and wild and free ♪</line>
+   <line type="music">♪ Now nothin' can
+take you away from me ♪</line>
+   <line type="music">♪ We've been down that road before ♪</line>
+   <line type="music">♪ But that's over now ♪</line>
+   <line type="music">♪ You keep me comin' back for more ♪</line>
+   <line type="music">♪ Baby you're all that I want ♪</line>
+   <line type="music">♪ When you're lyin' here in my arms ♪</line>
+   <line type="music">♪ I'm findin' it hard to believe ♪</line>
+   <line type="music">♪ We're in heaven ♪</line>
+   <line type="music">♪ And love is all that I need ♪</line>
+   <line type="music">♪ And I found it there in your heart ♪</line>
+   <line type="music">♪ It isn't too hard to see ♪</line>
+   <line type="music">♪ We're in heaven ♪</line>
+   <line type="music">♪ Oh, once in your life you find someone ♪</line>
+   <line type="music">♪ Who will turn your world around ♪</line>
+   <line type="music">♪ Bring you up
+when you're feelin' down ♪</line>
+   <line type="music">♪ Ya, nothin' could change
+what you mean to me ♪</line>
+   <line type="music">♪ Oh there's lots that I could say ♪</line>
+   <line type="music">♪ But just hold me now ♪</line>
+   <line type="music">♪ Cause our love will light the way ♪</line>
+   <line type="music">♪ Baby you're all that I want ♪</line>
+   <line type="music">♪ When you're lyin' here in my arms ♪</line>
+   <line type="music">♪ I'm findin' it hard to believe ♪</line>
+   <line type="music">♪ We're in heaven ♪</line>
+</transcript>

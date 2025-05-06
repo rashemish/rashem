@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../RelaxNG/TrueCrimeRelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
+<transcript>
+   <line type="dialogue">Oh, Gail.</line>
+   <line type="dialogue">Hey, Larry.</line>
+   <line type="dialogue">I was just doing my woodworking,
+needed a break.</line>
+   <line type="dialogue">I'm building a bridhouse for
+the tweeties on my balcony.</line>
+   <line type="dialogue">You want a peek?
+- I'm in a rush.</line>
+   <line type="dialogue">Yeah, I'm going
+for a walk anyway.</line>
+   <line type="dialogue">Enjoy it.</line>
+   <line type="dialogue">Hey, you wanna see one of
+the coolest spots in Philly?</line>
+   <line type="dialogue">It's three blocks from
+here. I discovered it.</line>
+   <line type="dialogue">I've got a lot of reading to do.
+And Bruce is coming over.</line>
+   <line type="dialogue">Good night, Larry.</line>
+   <line type="dialogue">How's "The Miller's Tale"
+gonna help me in life?</line>
+   <line type="dialogue">Totally unreadable.</line>
+   <line type="dialogue">So drop the class.</line>
+   <line type="dialogue">I'm going to
+med school anyway.</line>
+   <line type="dialogue">Hey.</line>
+   <line type="dialogue">What?</line>
+   <line type="dialogue">I'm done studying.
+- I'm not.</line>
+   <line type="dialogue">Yeah, you are.</line>
+   <line type="dialogue">Bruce, I have
+a seminar in the morning.</line>
+   <line type="dialogue">It's only Summer school.</line>
+   <line type="dialogue">Skip it.</line>
+   <line type="dialogue">What am I gonna have to
+do, kick you out of here?</line>
+   <line type="dialogue">I'm getting sick of that story, too.</line>
+   <line type="dialogue">Came in this morning
+addressed to Homicide.</line>
+   <line type="dialogue">I think it's one of yours.</line>
+   <line type="dialogue">Number one. Kitchen floor.</line>
+   <line type="dialogue">She had a useless
+cat who did nothing."</line>
+   <line type="dialogue">Number two. Brunette.
+At least two useless cats."</line>
+   <line type="dialogue">Ellen Curtis had two cats.</line>
+   <line type="dialogue">Three. This one died on me.
+And her useless cat just watched."</line>
+   <line type="dialogue">Oh... this bastard.</line>
+   <line type="dialogue">I don't like what I do,
+but I can't go yet.</line>
+   <line type="dialogue">The days are still warm."</line>
+   <line type="dialogue">That's him.</line>
+   <line type="dialogue">Try to get prints off this?</line>
+   <line type="dialogue">This guy doesn't leave prints.</line>
+   <line type="dialogue">Where has he
+been for five years?</line>
+   <line type="dialogue">And why is he
+sending us this letter?</line>
+   <line type="dialogue">He's bragging. He's
+telling us he's back.</line>
+   <line type="dialogue">And that he's gonna do it again.</line>
+   <line type="dialogue">Guy broke in
+through the window,</line>
+   <line type="dialogue">but Gail he k*lled.</line>
+   <line type="dialogue">He got through those bars?</line>
+   <line type="dialogue">Guy was some kind of spider.</line>
+   <line type="dialogue">He could climb walls,
+get in tiny windows.</line>
+   <line type="dialogue">So he's skinny.
+- He's a contortionist.</line>
+   <line type="dialogue">Boss...</line>
+   <line type="dialogue">I don't have the constitution
+to go after him again.</line>
+   <line type="dialogue">Why'd he k*ll Gail
+and not the others?</line>
+   <line type="dialogue">She fought back.</line>
+   <line type="dialogue">Any physical evidence?</line>
+   <line type="dialogue">Just the DNA from his sperm,
+but we never found a match.</line>
+   <line type="dialogue">I got samples from everybody--</line>
+   <line type="dialogue">the neighbors, plumbers,
+handymen... nothing.</line>
+   <line type="dialogue">It was like chasing a ghost.</line>
+   <line type="dialogue">Boss, I can't do this.</line>
+   <line type="dialogue">I'm not asking you to, Nick.</line>
+   <line type="dialogue">This case became
+a health issue for me.</line>
+   <line type="dialogue">Didn't you get any
+direction where to look?</line>
+   <line type="dialogue">He only struck when
+the weather was warm, so</line>
+   <line type="dialogue">I check out baseball teams, exchange
+students coming in for the Summer...</line>
+   <line type="dialogue">Circus. / Yeah?</line>
+   <line type="dialogue">Yeah, yeah,
+I interviewed a damn clown.</line>
+   <line type="dialogue">Who was the top suspect?</line>
+   <line type="dialogue">Bruce Elridge.</line>
+   <line type="dialogue">Gail's boyfriend.
+- How come?</line>
+   <line type="dialogue">He gave a shady,
+hostile interview.</line>
+   <line type="dialogue">Refused to give his DNA,</line>
+   <line type="dialogue">had not one good alibi
+for any of the r*pes.</line>
+   <line type="dialogue">Unfortunately, Vera's under
+orders not to talk to him.</line>
+   <line type="dialogue">That's not official.
+- The D.A.'s office was very clear, Nick.</line>
+   <line type="dialogue">Do not approach him again.</line>
+   <line type="dialogue">What did you do to him?</line>
+   <line type="dialogue">I was on the case.</line>
+   <line type="dialogue">He was a serious suspect.</line>
+   <line type="dialogue">He put him in
+the room four times.</line>
+   <line type="dialogue">What am I supposed to do,
+start all over again?</line>
+   <line type="dialogue">I'll start it over.
+- Whoa, this is my job.</line>
+   <line type="dialogue">I'm not gonna get cut out of it.</line>
+   <line type="dialogue">Well, which one is it,
+Vera? You in or out?</line>
+   <line type="dialogue">I don't know.</line>
+   <line type="dialogue">All right. Lil will read
+the case again.</line>
+   <line type="dialogue">You wanna join her, okay.</line>
+   <line type="dialogue">But I don't want you going
+to Bruce without new direction.</line>
+   <line type="dialogue">We got the letter.</line>
+   <line type="dialogue">Connect him to the letter,
+Nick, you can go back.</line>
+   <line type="dialogue">Not before.</line>
+   <line type="dialogue">You got an angle,
+how to do that?</line>
+   <line type="dialogue">Yeah, I got an angle.</line>
+   <line type="dialogue">No. Not you again.</line>
+   <line type="dialogue">Got some questions, Larry.
+- Forget it.</line>
+   <line type="dialogue">You browbeat this guy, too?</line>
+   <line type="dialogue">He's a material witness.
+I talk to him sometimes.</line>
+   <line type="dialogue">Larry, it's Lily Rush.
+With Homicide.</line>
+   <line type="dialogue">I need to talk to you about Gail.</line>
+   <line type="dialogue">I'll talk to you. Not him.</line>
+   <line type="dialogue">Grow up.</line>
+   <line type="dialogue">Open the door, Larry.</line>
+   <line type="dialogue">Detective Vera
+will take a little walk.</line>
+   <line type="dialogue">This guy's sick, huh?</line>
+   <line type="dialogue">Anything about it say
+Bruce Elridge to you?</line>
+   <line type="dialogue">The smugness fits.</line>
+   <line type="dialogue">He was such a snob.
+He'd never even say hello.</line>
+   <line type="dialogue">So you didn't know him well.</line>
+   <line type="dialogue">Nah.</line>
+   <line type="dialogue">You told that you thought</line>
+   <line type="dialogue">Gail and her boyfriend were
+having a fight next door.</line>
+   <line type="dialogue">If I may speak.</line>
+   <line type="dialogue">I never saw anyone else
+go inside that apartment.</line>
+   <line type="dialogue">What was your
+relationship with Gail?</line>
+   <line type="dialogue">Good neighbors.</line>
+   <line type="dialogue">Good friends.</line>
+   <line type="dialogue">Maybe something could have blossomed
+if the world was laid out differently.</line>
+   <line type="dialogue">So now you're flirting?
+You didn't say that five years ago.</line>
+   <line type="dialogue">You asked about the call,
+not my relationship with Gail.</line>
+   <line type="dialogue">Did the noise from next
+door wake you, Larry?</line>
+   <line type="dialogue">I was up, working.</line>
+   <line type="dialogue">Gail?</line>
+   <line type="dialogue">What's going on in there?</line>
+   <line type="dialogue">It sounds like
+more than reading.</line>
+   <line type="dialogue">I'm at Sansom.</line>
+   <line type="dialogue">I'm worried about my neighbor.</line>
+   <line type="dialogue">That was heroic,
+making that call, Larry.</line>
+   <line type="dialogue">It was instinct.</line>
+   <line type="dialogue">Anyway, uh...</line>
+   <line type="dialogue">the cops came,</line>
+   <line type="dialogue">knocked, left.</line>
+   <line type="dialogue">She was found
+dead the next day.</line>
+   <line type="dialogue">Cops can't break down a door just
+because some guy sense something.</line>
+   <line type="dialogue">I gave a DNA sample right off.
+I'll give another one if you like.</line>
+   <line type="dialogue">That's not necessary.</line>
+   <line type="dialogue">So back to Bruce.</line>
+   <line type="dialogue">You seen him lately?</line>
+   <line type="dialogue">I did run into him a couple of months
+ago, up on the Penn campus.</line>
+   <line type="dialogue">He does experiments
+at med school.</line>
+   <line type="dialogue">Yeah, he was full of hot air</line>
+   <line type="dialogue">about some kind of sleep
+study he's doing on cats.</line>
+   <line type="dialogue">Thank you.
+- Oh, yeah.</line>
+   <line type="dialogue">Some maybe we
+should check that out.</line>
+   <line type="dialogue">How'd you find out
+about his research?</line>
+   <line type="dialogue">I track this guy.</line>
+   <line type="dialogue">I knew it was animals, but
+I always figured it was lab rats.</line>
+   <line type="dialogue">That's him.</line>
+   <line type="dialogue">You can't talk to me.</line>
+   <line type="dialogue">That letter you
+wrote gave me cause.</line>
+   <line type="dialogue">Your pal here made my life
+miserable five years ago.</line>
+   <line type="dialogue">You could have ended it at
+anytime by giving a DNA sample.</line>
+   <line type="dialogue">Let's not have that
+conversation again.</line>
+   <line type="dialogue">Bruce,</line>
+   <line type="dialogue">I'm the one who
+wanted to talk to you.</line>
+   <line type="dialogue">And who are you?</line>
+   <line type="dialogue">Detective Rush. I'm looking
+back into Gail's m*rder.</line>
+   <line type="dialogue">I was wondering about the
+animal research you do.</line>
+   <line type="dialogue">What about it?</line>
+   <line type="dialogue">We're talking cats, right?</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">And I don't feel guilty about it
+if that's your next question.</line>
+   <line type="dialogue">You k*ll those cats? / If need be.
+If a person's got cancer</line>
+   <line type="dialogue">I'm not gonna worry about testing
+on some useless animal.</line>
+   <line type="dialogue">Why are they useless?</line>
+   <line type="dialogue">They're sub-human.</line>
+   <line type="dialogue">Small brains.
+- Like women.</line>
+   <line type="dialogue">Women have a use.</line>
+   <line type="dialogue">Bruce, why not make this easy?</line>
+   <line type="dialogue">Volunteer your DNA.</line>
+   <line type="dialogue">Fourth amendment says
+I got a right to privacy.</line>
+   <line type="dialogue">Don't you wanna be
+ruled out as a suspect?</line>
+   <line type="dialogue">On the contrary.</line>
+   <line type="dialogue">I don't want desperate detectives
+to act like it's a discovery</line>
+   <line type="dialogue">if they match my DNA to semen
+that was on Gail's sheets.</line>
+   <line type="dialogue">I was her boyfriend.</line>
+   <line type="dialogue">We were very active,</line>
+   <line type="dialogue">if you get me.</line>
+   <line type="dialogue">I'm sure my DNA's
+all over that place.</line>
+   <line type="dialogue">I see.</line>
+   <line type="dialogue">I don't need a witch hunt</line>
+   <line type="dialogue">just 'cause you couldn't
+solve this thing.</line>
+   <line type="dialogue">Vera.</line>
+   <line type="dialogue">What is it about this job?</line>
+   <line type="dialogue">You yap on all the time about the
+other cases. Why not this one?</line>
+   <line type="dialogue">This one did things to me.</line>
+   <line type="dialogue">Like what?</line>
+   <line type="dialogue">You ever work a job
+makes you feel helpless?</line>
+   <line type="dialogue">Yeah, I can always find
+motive, direction, but...</line>
+   <line type="dialogue">that piece of crap, he stops.</line>
+   <line type="dialogue">Leaves me with nothing.</line>
+   <line type="dialogue">I start second guessing
+everything, you know?</line>
+   <line type="dialogue">Maybe I'm not the
+bad a*s I think I am.</line>
+   <line type="dialogue">I want this guy.
+- So do I.</line>
+   <line type="dialogue">We can get him.</line>
+   <line type="dialogue">But I need you, Vera.</line>
+   <line type="dialogue">You know him
+better than anyone.</line>
+   <line type="dialogue">If he's following his M.O.,</line>
+   <line type="dialogue">he's already hunting...</line>
+   <line type="dialogue">stalking someone right
+now following her home.</line>
+   <line type="dialogue">Let's hope she's got
+her windows locked.</line>
+   <line type="dialogue">I should have noticed
+that they all had cats.</line>
+   <line type="dialogue">It didn't mean anything
+till we got the letter.</line>
+   <line type="dialogue">It's a list of parolees who were locked up
+the last five years and just got out.</line>
+   <line type="dialogue">One guy fits the time line,
+but he weights pounds.</line>
+   <line type="dialogue">Since when?</line>
+   <line type="dialogue">His whole life. It ain't him.</line>
+   <line type="dialogue">Was worth a try. / Yeah.</line>
+   <line type="dialogue">Well, how'd you do today?</line>
+   <line type="dialogue">Found out Bruce Elridge
+tortures cats for a living.</line>
+   <line type="dialogue">Does he?</line>
+   <line type="dialogue">Talks about useless animals
+and won't give up his DNA.</line>
+   <line type="dialogue">I gotta go sit on him.</line>
+   <line type="dialogue">Make sure he doesn't climb
+through anybody's window tonight.</line>
+   <line type="dialogue">I got new addresses
+on the first two victims.</line>
+   <line type="dialogue">They've both moved.</line>
+   <line type="dialogue">Let's go.</line>
+   <line type="dialogue">Wait till tomorrow.</line>
+   <line type="dialogue">I don't want you going to these girls
+at midnight asking about their r*pe.</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">Tomorrow.</line>
+   <line type="dialogue">Good night.</line>
+   <line type="dialogue">My dad told me why you're here.</line>
+   <line type="dialogue">Can I come in?</line>
+   <line type="dialogue">No, I'd rather... I'd rather talk out here.</line>
+   <line type="dialogue">We think he's back, Ellen.</line>
+   <line type="dialogue">Oh, no.</line>
+   <line type="dialogue">Can I show you a picture?</line>
+   <line type="dialogue">A detective showed me
+that five years ago.</line>
+   <line type="dialogue">I know.</line>
+   <line type="dialogue">Just look again.</line>
+   <line type="dialogue">Could this be the guy
+who att*cked you?</line>
+   <line type="dialogue">I couldn't say.</line>
+   <line type="dialogue">I never saw him.</line>
+   <line type="dialogue">Did his voice sound like
+anyone you know?</line>
+   <line type="dialogue">I told the first detective no.</line>
+   <line type="dialogue">I don't think so.</line>
+   <line type="dialogue">You said at the time you were
+certain it was a stranger.</line>
+   <line type="dialogue">Right.</line>
+   <line type="dialogue">You got a different feeling
+about that now?</line>
+   <line type="dialogue">It's okay if you do.</line>
+   <line type="dialogue">No.</line>
+   <line type="dialogue">No, I don't know him.</line>
+   <line type="dialogue">I really can't... I really
+can't tell you anything.</line>
+   <line type="dialogue">The lead detective on
+this case is female, Ellen.</line>
+   <line type="dialogue">Would you be more
+comfortable talking to her?</line>
+   <line type="dialogue">Maybe.</line>
+   <line type="dialogue">Okay.</line>
+   <line type="dialogue">I gotta go to work, but, um...</line>
+   <line type="dialogue">I'm home every day by : .</line>
+   <line type="dialogue">All right.</line>
+   <line type="dialogue">Could be him.</line>
+   <line type="dialogue">Could be Yo Yo Ma.</line>
+   <line type="dialogue">I didn't see crap.</line>
+   <line type="dialogue">He covered your eyes right away.</line>
+   <line type="dialogue">I'm in my kitchen...</line>
+   <line type="dialogue">all of a sudden there's
+a towel over my face.</line>
+   <line type="dialogue">Guy whispers that he's real
+sorry... r*pes me right there...</line>
+   <line type="dialogue">and then stays for an hour,
+talking to me.</line>
+   <line type="dialogue">I'm always nervous on first dates.</line>
+   <line type="dialogue">But we did okay, didn't we?</line>
+   <line type="dialogue">You were playing such
+a sad song before.</line>
+   <line type="dialogue">You wanna play it for me?</line>
+   <line type="dialogue">I don't think so.</line>
+   <line type="dialogue">That's okay.</line>
+   <line type="dialogue">Those bars on your windows
+are no good, honey.</line>
+   <line type="dialogue">They're too far apart.</line>
+   <line type="dialogue">You gotta be more careful.</line>
+   <line type="dialogue">You know what he said to
+me right before he left?</line>
+   <line type="dialogue">Wish that we had met under
+different circumstances."</line>
+   <line type="dialogue">I'm sorry, Niki.</line>
+   <line type="dialogue">I just hope you finally get the guy.</line>
+   <line type="dialogue">I don't wanna make you
+uncomportable, but, um...</line>
+   <line type="dialogue">you were obviously in
+close contact with him.</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">He touched you. You
+must have touched him.</line>
+   <line type="dialogue">Was there anything that you
+felt that was distinctive?</line>
+   <line type="dialogue">Scars? Moles?</line>
+   <line type="dialogue">This is kind of weird...</line>
+   <line type="dialogue">That's okay.</line>
+   <line type="dialogue">I did touch him. I didn't
+do it to be intimate...</line>
+   <line type="dialogue">Of course not.</line>
+   <line type="dialogue">I was trying to get him off me.</line>
+   <line type="dialogue">And you noticed something.</line>
+   <line type="dialogue">Smooth skin.</line>
+   <line type="dialogue">Legs, arms, everything.</line>
+   <line type="dialogue">Soft and smooth like a woman's.</line>
+   <line type="dialogue">Excuse me a second, Niki.</line>
+   <line type="dialogue">What's that?</line>
+   <line type="dialogue">Bruce Elridge's coffee cup.</line>
+   <line type="dialogue">You stole his coffee?</line>
+   <line type="dialogue">He abandoned it in a public place.</line>
+   <line type="dialogue">Now we got his precious DNA.</line>
+   <line type="dialogue">According to Niki Lamas,</line>
+   <line type="dialogue">we're looking at a guy
+with super smooth skin.</line>
+   <line type="dialogue">That's new.</line>
+   <line type="dialogue">Maybe he shaves his
+body before he att*cks.</line>
+   <line type="dialogue">No hair ever found at the scenes.</line>
+   <line type="dialogue">Anything from Ellen Curtis?</line>
+   <line type="dialogue">Jeffries got the sense she knew
+something. I'll go back to her today.</line>
+   <line type="dialogue">And how's our boy Vera doing?</line>
+   <line type="dialogue">He's... passionate.</line>
+   <line type="dialogue">That passion almost compromised
+this case five years ago.</line>
+   <line type="dialogue">I'm watching, boss.</line>
+   <line type="dialogue">I hate to rat a guy out,</line>
+   <line type="dialogue">but Vera just walked in with Bruce Elridge.</line>
+   <line type="dialogue">I can't have this...
+- Let me go.¡¡¡¡¡¡¡¡</line>
+   <line type="dialogue">You'll want to look at this first.</line>
+   <line type="dialogue">This isn't gonna help.</line>
+   <line type="dialogue">You can't keep me here.</line>
+   <line type="dialogue">I can keep you here for six hours.</line>
+   <line type="dialogue">So what's with the animal experiments?</line>
+   <line type="dialogue">What are you, an activist?</line>
+   <line type="dialogue">Lot of K*llers start off torturing animals.</line>
+   <line type="dialogue">But smart guy like you...
+know something about that.</line>
+   <line type="dialogue">So what?</line>
+   <line type="dialogue">Is that you, Bruce, hmm?</line>
+   <line type="dialogue">Did you go from cats to
+women with your viciousness?</line>
+   <line type="dialogue">That's a leap.</line>
+   <line type="dialogue">You slip into their apartments with
+that wimp-boy frame of yours.</line>
+   <line type="dialogue">You terrorize them and you
+pretend you're on a date?</line>
+   <line type="dialogue">I've got a girlfriend.
+We're very, very happy.</line>
+   <line type="dialogue">Maybe you didn't mean to k*ll Gail.</line>
+   <line type="dialogue">Just r*pe her like the others.</line>
+   <line type="dialogue">I didn't do anything to her, so why
+don't you stop acting like a thug.</line>
+   <line type="dialogue">What'd you just call me, you little rube?</line>
+   <line type="dialogue">Say it again, come on!</line>
+   <line type="dialogue">Say it again.</line>
+   <line type="dialogue">Say it again!</line>
+   <line type="dialogue">Vera...</line>
+   <line type="dialogue">Looks like Bruce here
+thinks I'm wasting his time.</line>
+   <line type="dialogue">Come out here.</line>
+   <line type="dialogue">Bruce has better
+things to do... / Vera!</line>
+   <line type="dialogue">We got the DNA back.</line>
+   <line type="dialogue">It's a negative match.</line>
+   <line type="dialogue">You bunch of thugs!</line>
+   <line type="dialogue">Bruce... what the hell's wrong with you?</line>
+   <line type="dialogue">What's that supposed to mean?</line>
+   <line type="dialogue">You knew we wouldn't
+match your DNA. / So?</line>
+   <line type="dialogue">So why not give a sample five
+years ago like a normal person?</line>
+   <line type="dialogue">I got a right to privacy.</line>
+   <line type="dialogue">How's giving a swab of
+spit invading your privacy?</line>
+   <line type="dialogue">A guy's got a right to have
+sex with his own girlfriend.</line>
+   <line type="dialogue">Okay.</line>
+   <line type="dialogue">Okay.</line>
+   <line type="dialogue">You weren't having sex with her.</line>
+   <line type="dialogue">Excuse me?</line>
+   <line type="dialogue">You didn't want us to not find your DNA.</line>
+   <line type="dialogue">It wasn't anywhere in that apartment,</line>
+   <line type="dialogue">cause she was shutting you down.</line>
+   <line type="dialogue">We went out for seven months.</line>
+   <line type="dialogue">And by that time a guy's got a right.</line>
+   <line type="dialogue">You think I wanted all those
+macho cops, all my friends,</line>
+   <line type="dialogue">knowing I was putting up with such a prude?</line>
+   <line type="dialogue">Hey, Bruce... this ain't high school.</line>
+   <line type="dialogue">This case died five years ago and
+you could have helped us bring it in.</line>
+   <line type="dialogue">And you coming off to your
+pals like some big stud</line>
+   <line type="dialogue">isn't more important than a girl dying.</line>
+   <line type="dialogue">My partner got the sense you knew
+we were on the wrong trail.</line>
+   <line type="dialogue">How would I know that?</line>
+   <line type="dialogue">Maybe you saw the guy.</line>
+   <line type="dialogue">No.</line>
+   <line type="dialogue">Maybe... you knew the guy?</line>
+   <line type="dialogue">I really try not to think about this.
+- That's understandable.¡¡¡¡¡¡¡¡</line>
+   <line type="dialogue">But he contacted us.</line>
+   <line type="dialogue">Let us know he's gonna do it again.</line>
+   <line type="dialogue">I can't worry about that.</line>
+   <line type="dialogue">If you could describe
+him...</line>
+   <line type="dialogue">I can't. / I know that's what you've
+been saying all these years,</line>
+   <line type="dialogue">but maybe it's because it's too painful.</line>
+   <line type="dialogue">Ellen, I'm just scared
+it's gonna happen again.</line>
+   <line type="dialogue">I never used to be scared of anything.</line>
+   <line type="dialogue">No?</line>
+   <line type="dialogue">Now I live with my parents.</line>
+   <line type="dialogue">I'm terrified if I'm not home before dark.</line>
+   <line type="dialogue">You had a life before.</line>
+   <line type="dialogue">You just want it back.</line>
+   <line type="dialogue">I don't think that's in the cards.</line>
+   <line type="dialogue">I do.</line>
+   <line type="dialogue">But you have to start by telling
+me what you saw that night.</line>
+   <line type="dialogue">It might not be relevant.</line>
+   <line type="dialogue">I was at the Free Library,
+outside buying a coffee</line>
+   <line type="dialogue">and this, um... this guy started
+talking to me about books</line>
+   <line type="dialogue">and I can't even remember what else.</line>
+   <line type="dialogue">But it was only for, like, a few minutes...</line>
+   <line type="dialogue">and then I went home.</line>
+   <line type="dialogue">And that was it.</line>
+   <line type="dialogue">Did you get his name?</line>
+   <line type="dialogue">Then the r*pe happened that night...</line>
+   <line type="dialogue">Olive?</line>
+   <line type="dialogue">Edie?</line>
+   <line type="dialogue">Hey, kitty, kitty, kitty.</line>
+   <line type="dialogue">You scared me.</line>
+   <line type="dialogue">I'm so sorry.</line>
+   <line type="dialogue">First dates are hard.</line>
+   <line type="dialogue">Especially with serious girls like you.</line>
+   <line type="dialogue">I just wish we could met under
+different circumstances.</line>
+   <line type="dialogue">It was so quick.</line>
+   <line type="dialogue">It was like a flashbulb.</line>
+   <line type="dialogue">And I, uh... I could be wrong, but...</line>
+   <line type="dialogue">the face I keep seeing
+is the guy from the library.</line>
+   <line type="dialogue">Um... dark hair...</line>
+   <line type="dialogue">kind of shaggy.</line>
+   <line type="dialogue">Smooth skin.</line>
+   <line type="dialogue">This is gonna help us a lot.</line>
+   <line type="dialogue">I'm sorry I didn't do it earlier.</line>
+   <line type="dialogue">You weren't ready earlier.</line>
+   <line type="dialogue">I should have told that first detective.</line>
+   <line type="dialogue">I was worried he'd think that
+since I'd talked to the guy...</line>
+   <line type="dialogue">I'd let him on.</line>
+   <line type="dialogue">You know?</line>
+   <line type="dialogue">Detective Vera only looks
+like a Neanderthal.</line>
+   <line type="dialogue">Excuse me.</line>
+   <line type="dialogue">What?</line>
+   <line type="dialogue">Sex Crimes got an as*ault,
+th and Lombard.</line>
+   <line type="dialogue">Same M.O.?</line>
+   <line type="dialogue">Crawled through the
+second floor window.</line>
+   <line type="dialogue">Our boy is back.</line>
+   <line type="dialogue">up the drain pipe,</line>
+   <line type="dialogue">climbed cross the walls,</line>
+   <line type="dialogue">slipped in through the bars.</line>
+   <line type="dialogue">Now, that's determination.</line>
+   <line type="dialogue">Are there prints on the bars?</line>
+   <line type="dialogue">Of course not.</line>
+   <line type="dialogue">Ah, but he did leave a token behind.</line>
+   <line type="dialogue">Kenfield, filter.</line>
+   <line type="dialogue">Left it right at the bedside.</line>
+   <line type="dialogue">This the victim?</line>
+   <line type="dialogue">Yeah. Sex Crimes took her to the hopital.</line>
+   <line type="dialogue">They know you want talk to her, though.</line>
+   <line type="dialogue">We doing this together?</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">Please.</line>
+   <line type="dialogue">Maybe I should have
+fought or something.</line>
+   <line type="dialogue">There's no "should", Tanya.</line>
+   <line type="dialogue">Does, uh... this look like him?</line>
+   <line type="dialogue">He covered my eyes so quickly.</line>
+   <line type="dialogue">Did he speak to you?</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">Afterwards, he talked a lot.
+He talked about art and books.</line>
+   <line type="dialogue">I'm in grad school for
+art history, but I don't...</line>
+   <line type="dialogue">I don't know how he knew that.</line>
+   <line type="dialogue">Did you recognize his voice? / No.</line>
+   <line type="dialogue">He was a stranger.</line>
+   <line type="dialogue">You study art history?</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">Been to any museums lately?</line>
+   <line type="dialogue">Um... I was at the Rodin a few days ago.</line>
+   <line type="dialogue">Did you notice anything about this skin?</line>
+   <line type="dialogue">It was... smooth.
+You know, like... hairless.</line>
+   <line type="dialogue">No hair at all?</line>
+   <line type="dialogue">Didn't seem like it.</line>
+   <line type="dialogue">Do you know what he
+told me before he left?</line>
+   <line type="dialogue">That he wished that we had met under...</line>
+   <line type="dialogue">Under different circumstances.</line>
+   <line type="dialogue">And that he was sorry.</line>
+   <line type="dialogue">Does this guy stalk girls
+on Ben Franklin Parkway?</line>
+   <line type="dialogue">Gail worked at the Museum of Art.</line>
+   <line type="dialogue">Ellen was at the Free Library
+the day she was att*cked.</line>
+   <line type="dialogue">And Tanya went to the Rodin last week.</line>
+   <line type="dialogue">Niki was on Locust.</line>
+   <line type="dialogue">Leaving the Academy of Music.</line>
+   <line type="dialogue">Maybe he targets smart girls.</line>
+   <line type="dialogue">All the victims were college types.</line>
+   <line type="dialogue">Serious girls." He said it to Ellen.</line>
+   <line type="dialogue">Let's post this composite
+all over the Parkway.</line>
+   <line type="dialogue">I got it.</line>
+   <line type="dialogue">I interviewed a woman that worked
+with Gail at the art museum.</line>
+   <line type="dialogue">Anna...</line>
+   <line type="dialogue">Anna... Berlin.</line>
+   <line type="dialogue">They had lunch together
+the day of the m*rder.</line>
+   <line type="dialogue">We have this now.</line>
+   <line type="dialogue">Let's see if she knows our new friends.</line>
+   <line type="dialogue">Is this who k*lled Gail?</line>
+   <line type="dialogue">Could be.</line>
+   <line type="dialogue">Do you recognize him at all?</line>
+   <line type="dialogue">I don't think so.</line>
+   <line type="dialogue">Take your time.</line>
+   <line type="dialogue">I can't be sure, but...</line>
+   <line type="dialogue">But what?</line>
+   <line type="dialogue">It sort of looks like a guy we'd
+see out here at lunchtime.</line>
+   <line type="dialogue">You and Gail saw him?</line>
+   <line type="dialogue">He'd hang out here,
+smoking, watching people.</line>
+   <line type="dialogue">I kind of forgot about him.</line>
+   <line type="dialogue">He hasn't been around for years,</line>
+   <line type="dialogue">but he's been back lately.</line>
+   <line type="dialogue">Ever get a name? / No.</line>
+   <line type="dialogue">We only talked to him once.</line>
+   <line type="dialogue">How's the pre-med student?</line>
+   <line type="dialogue">Arrogant. Pushy.</line>
+   <line type="dialogue">In other words, the same.</line>
+   <line type="dialogue">I know, I have bad taste in men.</line>
+   <line type="dialogue">You ladies work here?</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">How's the new exhibit?</line>
+   <line type="dialogue">The Monet? It's beautiful.
+I recommend it.</line>
+   <line type="dialogue">Maybe I'll take a look.</line>
+   <line type="dialogue">See you in there.</line>
+   <line type="dialogue">I didn't think to mention
+it to you back then.</line>
+   <line type="dialogue">People are always aksing questions.</line>
+   <line type="dialogue">Do you think he may have
+been watching Gail?</line>
+   <line type="dialogue">He wasn't there for the art.</line>
+   <line type="dialogue">Got something.</line>
+   <line type="dialogue">Girl was with a friend and her
+mom on Ben Franklin Parkway.</line>
+   <line type="dialogue">Saw your composite.</line>
+   <line type="dialogue">This is Lily. She's a police officer, too.</line>
+   <line type="dialogue">Tell her what you told me.</line>
+   <line type="dialogue">That's Carl.</line>
+   <line type="dialogue">My mommy's boyfriend.</line>
+   <line type="dialogue">What do you got?</line>
+   <line type="dialogue">Carl Heeley, grew up in a trailer park
+in Trenton, moved up Philly at ,</line>
+   <line type="dialogue">Franklin Institute from ' to ' .</line>
+   <line type="dialogue">Across from the Free Library. / Yeah.</line>
+   <line type="dialogue">And the last five years, he was
+at an army base in Portland.</line>
+   <line type="dialogue">Just got back to town.</line>
+   <line type="dialogue">How'd he behave in Oregon?</line>
+   <line type="dialogue">Dishonorably discharged six weeks ago.</line>
+   <line type="dialogue">Breaking into a female officer's room.</line>
+   <line type="dialogue">Through the window.</line>
+   <line type="dialogue">She was trained in combat
+though, unlike our girls.</line>
+   <line type="dialogue">She fought him, ID'd him,
+and they sent him packing.</line>
+   <line type="dialogue">Military will have boold types.</line>
+   <line type="dialogue">We're getting a subpoena right now.</line>
+   <line type="dialogue">Pick up this soldier.</line>
+   <line type="dialogue">What's this about?</line>
+   <line type="dialogue">A woman was r*ped inOld City last night.</line>
+   <line type="dialogue">I'm sorry to hear that.</line>
+   <line type="dialogue">Where were you last night, Carl?</line>
+   <line type="dialogue">At home. Reading.</line>
+   <line type="dialogue">Can anyone verify that?</line>
+   <line type="dialogue">My girlfriend and her daughter.</line>
+   <line type="dialogue">You a big reader, Carl?</line>
+   <line type="dialogue">You could say.</line>
+   <line type="dialogue">You lived in the area five years
+ago when three women r*ped.</line>
+   <line type="dialogue">Do you remember anything about that?</line>
+   <line type="dialogue">Not really.</line>
+   <line type="dialogue">But you heard about it, right?</line>
+   <line type="dialogue">Yeah, I think I remember something
+about it, but that was a long time ago.</line>
+   <line type="dialogue">This looks a lot like you,
+don't you think?</line>
+   <line type="dialogue">Sort of.</line>
+   <line type="dialogue">Can you arrest a man for
+looking like a drawing?</line>
+   <line type="dialogue">We're asking guys who look like
+this picture to take a DNA test.</line>
+   <line type="dialogue">Would you do that?</line>
+   <line type="dialogue">I'm sorry. I prefer not to.</line>
+   <line type="dialogue">Look, I'd love to help you out, but
+I gotta get back new job and all.</line>
+   <line type="dialogue">So, is there anything else?</line>
+   <line type="dialogue">No.</line>
+   <line type="dialogue">Crap.</line>
+   <line type="dialogue">It was a Kenfield filter.</line>
+   <line type="dialogue">Carl and I used to date, so...</line>
+   <line type="dialogue">Well, you lived together, that's a
+bit different than dating, isn't it?</line>
+   <line type="dialogue">Cait, honey, take Dolly
+and play in the room, okay?</line>
+   <line type="dialogue">We lived together five years ago.
+We broke up when he moved.</line>
+   <line type="dialogue">If you broke up, how'd
+you get this Army picture?</line>
+   <line type="dialogue">We kept in touch.</line>
+   <line type="dialogue">Caitlin says that Carl's
+still your boyfriend.</line>
+   <line type="dialogue">That he's been around
+the apartment a lot.</line>
+   <line type="dialogue">Yeah, well... maybe
+I never got over him.</line>
+   <line type="dialogue">Do you remember those
+r*pes five years ago?</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">Do you remember that
+a girl was m*rder*d?</line>
+   <line type="dialogue">What, you trying to say that was Carl?</line>
+   <line type="dialogue">This is the guy.</line>
+   <line type="dialogue">You tell me, Bridget.</line>
+   <line type="dialogue">Carl is a good person.</line>
+   <line type="dialogue">He is.</line>
+   <line type="dialogue">He is. Just should see him
+with Caitlin and animals.</line>
+   <line type="dialogue">Down at that shelter you work at?</line>
+   <line type="dialogue">Yeah. He helps out sometimes.</line>
+   <line type="dialogue">You got any pets here?</line>
+   <line type="dialogue">No, no.</line>
+   <line type="dialogue">Carl always says that dogs are for
+families and cats are for single girls.</line>
+   <line type="dialogue">Mm. Carl says that, huh?
+- Yeah, we joke about it.</line>
+   <line type="dialogue">You know, cats and book clubs,</line>
+   <line type="dialogue">two sure signs that a woman's
+all alone in the world.</line>
+   <line type="dialogue">I'm guessing you wouldn't be
+caught dead at a book club.</line>
+   <line type="dialogue">I noticed your Shakespeare
+collection over there.</line>
+   <line type="dialogue">Yeah, Carl got that at a garage sale.</line>
+   <line type="dialogue">You guys read the tragedies together?</line>
+   <line type="dialogue">He looks at'em sometimes.
+I don't like books.</line>
+   <line type="dialogue">Maybe that's why he
+took off five years ago.</line>
+   <line type="dialogue">What do you mean?</line>
+   <line type="dialogue">Nothing.</line>
+   <line type="dialogue">No, what?</line>
+   <line type="dialogue">We talked to Carl earlier today
+and he just wasn't, uh...</line>
+   <line type="dialogue">very complimentary about
+your... brain power.</line>
+   <line type="dialogue">That's mean.</line>
+   <line type="dialogue">I thought so.</line>
+   <line type="dialogue">Was he with you last night?</line>
+   <line type="dialogue">Yeah, he was here.</line>
+   <line type="dialogue">He go out after?</line>
+   <line type="dialogue">He went out for a walk, late.</line>
+   <line type="dialogue">Cause there was another
+r*pe last night.</line>
+   <line type="dialogue">Another woman who
+lives alone, with a cat.</line>
+   <line type="dialogue">Carl take a lot of walks?</line>
+   <line type="dialogue">Yeah. He has trouble sleeping.</line>
+   <line type="dialogue">He always did.</line>
+   <line type="dialogue">Honey... what's wrong?</line>
+   <line type="dialogue">Nothing. Can't sleep is all.</line>
+   <line type="dialogue">Come back to bed.</line>
+   <line type="dialogue">I'm gonna get some air.</line>
+   <line type="dialogue">Okay.</line>
+   <line type="dialogue">Be careful.</line>
+   <line type="dialogue">You, too.</line>
+   <line type="dialogue">Keep the windows closed.</line>
+   <line type="dialogue">Yeah, he did that a lot.</line>
+   <line type="dialogue">He'd leave in the middle of the night.</line>
+   <line type="dialogue">Didn't you think it was pretty odd
+that he shaved like that Bridget?</line>
+   <line type="dialogue">He always shaved,
+you know? He said, um...</line>
+   <line type="dialogue">it had to do, you know,
+with biking, for speed.</line>
+   <line type="dialogue">Did he always shave at midnight?</line>
+   <line type="dialogue">I don't know.</line>
+   <line type="dialogue">You remember the r*pes,
+though, don't you?</line>
+   <line type="dialogue">Yeah.</line>
+   <line type="dialogue">Didn't you ever think...</line>
+   <line type="dialogue">That I was living with a r*pist?</line>
+   <line type="dialogue">No, I never thought that. Would you?</line>
+   <line type="dialogue">Does it make sense now?</line>
+   <line type="dialogue">Yeah, I guess.</line>
+   <line type="dialogue">With the walks and all.</line>
+   <line type="dialogue">Now that I think about it,</line>
+   <line type="dialogue">times since I've known him.</line>
+   <line type="dialogue">Bridget?</line>
+   <line type="dialogue">I'm so sorry Carl.</line>
+   <line type="dialogue">You really should be more careful.</line>
+   <line type="dialogue">I just wish we should've met
+under different circumstances.</line>
+   <line type="dialogue">Why are you here?</line>
+   <line type="dialogue">We just wanna chat. Again.</line>
+   <line type="dialogue">We called the base up in Oregon.</line>
+   <line type="dialogue">Seems you got the same
+blood type as our r*pist.</line>
+   <line type="dialogue">Type A is pretty common.</line>
+   <line type="dialogue">We've got your letter, too.</line>
+   <line type="dialogue">I'm not much of a writer.</line>
+   <line type="dialogue">Plus that cigarette you left at Tanya's--</line>
+   <line type="dialogue">tells me you're just about
+ready to stop this.</line>
+   <line type="dialogue">How'd them army boys deal with
+you shaving your chest and your legs?</line>
+   <line type="dialogue">I cut that out up there.</line>
+   <line type="dialogue">Didn't wanna be on the wrong
+side of "don't ask, don't tell," huh?</line>
+   <line type="dialogue">I just didn't get much of a
+chance to bike in Oregon.</line>
+   <line type="dialogue">What kind of people do
+you come from... Carl?</line>
+   <line type="dialogue">Nothing special.</line>
+   <line type="dialogue">Educated?</line>
+   <line type="dialogue">No.</line>
+   <line type="dialogue">Low rent?</line>
+   <line type="dialogue">You could say.</line>
+   <line type="dialogue">Not a lot of books in
+the trailer, I take it?</line>
+   <line type="dialogue">My mom couldn't read.</line>
+   <line type="dialogue">What about that sister of yours,</line>
+   <line type="dialogue">prostitution? She a... big scholar?</line>
+   <line type="dialogue">Yeah, you come from trash,
+you end up trash.</line>
+   <line type="dialogue">With a trash girlfriend. You were
+looking for someone better.</line>
+   <line type="dialogue">A classy girl with... education.</line>
+   <line type="dialogue">I like girls with culture who don't
+eat their takeout right out of a box.</line>
+   <line type="dialogue">Hm, like Bridget?</line>
+   <line type="dialogue">Bridget's never been to
+a museum in her life.</line>
+   <line type="dialogue">So you went looking for a girl
+with a little something upstairs.</line>
+   <line type="dialogue">Trolling through the
+museums and libraries</line>
+   <line type="dialogue">till you found her, then
+you followed her home.</line>
+   <line type="dialogue">Looked to see if there
+was a cat in her window,</line>
+   <line type="dialogue">cause that meant she
+was all alone in there.</line>
+   <line type="dialogue">And you got that talent
+for getting into tiny places.</line>
+   <line type="dialogue">Talk or don't talk.</line>
+   <line type="dialogue">It doesn't matter anymore.</line>
+   <line type="dialogue">Bridget gave us your razor.</line>
+   <line type="dialogue">It's at the DNA lab right now. / Yep.</line>
+   <line type="dialogue">We're just waiting for the official word.</line>
+   <line type="dialogue">I used to slide down the laundry
+chute at my best friend's building.</line>
+   <line type="dialogue">You can't believe how narrow it was.</line>
+   <line type="dialogue">I'd get into the neighbor's
+house and steal things.</line>
+   <line type="dialogue">It was like the one thing that
+I was really, really good at,</line>
+   <line type="dialogue">getting into small places.</line>
+   <line type="dialogue">I was, like, known for it.</line>
+   <line type="dialogue">That's sensational, Carl.</line>
+   <line type="dialogue">I told you... I was ready soon,
+soon as the weather changed.</line>
+   <line type="dialogue">Yeah. You told us.</line>
+   <line type="dialogue">I just had these demons.</line>
+   <line type="dialogue">Is that why you joined the military?</line>
+   <line type="dialogue">To maybe get some discipline?</line>
+   <line type="dialogue">I kept them down for a while,
+but they came back.</line>
+   <line type="dialogue">The... one in Oregon was a fighter,
+like the other ont that... / Gail.</line>
+   <line type="dialogue">The girl you m*rder*d.</line>
+   <line type="dialogue">I just wanted to...</line>
+   <line type="dialogue">date her, you know, not hurt her.</line>
+   <line type="dialogue">Quiet. I am sorry.</line>
+   <line type="dialogue">Studying, huh?</line>
+   <line type="dialogue">College girl?
+- Let me... go!</line>
+   <line type="dialogue">You should be more careful.</line>
+   <line type="dialogue">That window's wide open.</line>
+   <line type="dialogue">Gail. / Be quite.</line>
+   <line type="dialogue">What's going on there?</line>
+   <line type="dialogue">Be quite. Quite. Quite.</line>
+   <line type="dialogue">Sounds like more than
+reading. / Quite. Quite.</line>
+   <line type="dialogue">I just wish we could've met
+under different circumstances.</line>
+   <line type="dialogue">["Heroes" by The wallflowers]</line>
+   <line type="music">♪ I, I will be king ♪</line>
+   <line type="music">♪ And you, you will be queen ♪</line>
+   <line type="music">♪ Though nothing, ♪</line>
+   <line type="music">♪ Nothing will drive them away ♪</line>
+   <line type="music">♪ We can be Heroes ♪</line>
+   <line type="music">♪ Just for one day ♪</line>
+   <line type="music">♪ We can be us ♪</line>
+   <line type="music">♪ Just for one day ♪</line>
+   <line type="music">♪ I, I can remember ♪</line>
+   <line type="music">♪ Standing by the wall ♪</line>
+   <line type="music">♪ And the g*ns ♪</line>
+   <line type="music">♪ Shot above our heads ♪</line>
+   <line type="music">♪ And we kissed ♪</line>
+   <line type="music">♪ As though nothing could fall ♪</line>
+   <line type="music">♪ And the shame ♪</line>
+   <line type="music">♪ Was on the other side ♪</line>
+   <line type="music">♪ Oh we can beat them ♪</line>
+   <line type="music">♪ For ever and ever ♪</line>
+   <line type="music">♪ Then we can be Heroes ♪</line>
+   <line type="music">♪ Just for one day ♪</line>
+   <line type="music">♪ We can be Heroes ♪</line>
+   <line type="music">♪ We can be Heroes ♪</line>
+   <line type="music">♪ We can be Heroes ♪</line>
+   <line type="music">♪ We can be Heroes just for one day </line>
+</transcript>
