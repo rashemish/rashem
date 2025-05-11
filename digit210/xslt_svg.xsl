@@ -9,12 +9,13 @@
     <xsl:template match="/">
         <svg xmlns="http://www.w3.org/2000/svg" width="700" height="300">
             <xsl:variable name="text" select="string-join(//line[@type='dialogue'], ' ') => lower-case()"/>
-            <xsl:variable name="tokens" select="tokenize($text, '\W+')"/>
+            <xsl:variable name="tokens" select="tokenize($text, '\s+')"/>
             
-            <xsl:variable name="count-murder" select="count($tokens[matches(., '^m\*?rder')])"/>
-            <xsl:variable name="count-kill" select="count($tokens[matches(., '^k\*?ll')])"/>
-            <xsl:variable name="count-gun" select="count($tokens[matches(., '^g\*?n')])"/>
-            <xsl:variable name="count-police" select="count($tokens[matches(., '^police')])"/>
+            <xsl:variable name="count-murder" select="count($tokens[matches(., 'm.rder')])"/>
+            <xsl:variable name="count-kill" select="count($tokens[matches(., 'k\*ll')])"/>
+            <xsl:variable name="count-kill" select="count($tokens[matches(., 'death')])"/>
+            <xsl:variable name="count-gun" select="count($tokens[matches(., '^g\*n')])"/>
+            <xsl:variable name="count-police" select="count($tokens[matches(., 'p.*lice')])"/>
             
             <xsl:variable name="max" select="max(($count-murder, $count-kill, $count-gun, $count-police))"/>
             
