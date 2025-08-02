@@ -55,10 +55,8 @@ color: #FA7921;
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
 margin-top: 10px;
 margin-bottom: 150px;
-text-align: center;
 }
 
 
@@ -239,14 +237,14 @@ height: 600px;
 }
 
 footer {
+position: fixed;
+bottom: 10px;
+width: 100%; 
 font-family: quicksand, sans-serif;
 font-weight: 700;
 font-style: normal;
-width: 100%;
 text-align: center;
-padding: 10px;
+padding: 5px;
 background-color: transparent;
 color: #C64191;
-position: relative;
-bottom: 0;
 }
