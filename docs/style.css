@@ -5,8 +5,18 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-between;
-min-height: 40vh;
-background-color: #FFEDA2;
+min-height: 70vh;
+background-color: #FFDBE2;
+
+.site-header {
+  padding: 20px;
+  position: relative;
+}
+
+.logo {
+  height: 50px; /* adjust based on your design */
+  width: auto;
+  display: block;
 }
 
 .navbar {
@@ -14,14 +24,14 @@ display: flex;
 justify-content: space-evenly;
 background-color: transparent;
 width: 100%;
-padding: 30px 0;
+padding: 70px 0;
 }
 
 .navbar a {
 font-family: "podium-soft-variable",sans-serif;
 font-variation-settings: 'wdth' 59;
-font-size: 100px;
-color: #4282AA;
+font-size: 70px;
+color: #963D5A;
 text-decoration: none;
 padding: 8px 10px;
 }
@@ -34,17 +44,16 @@ color: white;
 .hello {
   display: flex;
   align-items: flex-start;
-  border-radius: 4px;
-  padding: 10px;
+  padding: 0px;
   max-width: 100%;
   width: fit-content; /* shrink-wraps content */
   margin: 20px 0 20px 0; /* sits on left naturally */
 }
 
 .hello-img {
-  width: 500px;        /* or any width you prefer */
-  height: auto;
-  margin-right: 15px;  /* spacing between image and text */
+  width: 300px;        /* or any width you prefer */
+  height: 300px;
+  margin-right: 5px;  /* spacing between image and text */
 }
 
 .hello-text {
@@ -142,14 +151,9 @@ p {
 font-family: quicksand, sans-serif;
 font-weight: 500;
 font: medium;
-font-size: 12px;
+font-size: 20px;
 color: black;
 margin-left: 50px;
-margin-right: 50px;
-margin-top: 10px;
-justify-content: center;
-align-items: center;
-text-align: center;
 }
 
 footer {
