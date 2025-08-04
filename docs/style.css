@@ -5,6 +5,7 @@ body {
   flex-direction: column;
   min-height: 70vh;
   background-color: #EDEBEB;
+}
 
 * {
   margin: 0;
@@ -59,23 +60,22 @@ body {
 }
 
 .hello-img {
-width: 500px;
-height: auto;
-position: absolute;
+  width: 500px;
+  height: auto;
+  position: absolute;
   right: 150px;
   top: 100px;
   max-width: 100%;
-  margin-bottom: 100px;
 }
 
 .hello-text {
-left: 40px;
-font-family: prestige-elite-std, monospace;
-font-weight: 400;
-font-style: normal;
-font-size: 30px;
-color: #0A0903;
-width: 600px;
+  left: 40px;
+  font-family: prestige-elite-std, monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #0A0903;
+  width: 600px;
 }
 
 h1{
@@ -88,16 +88,13 @@ color: #B793DB;
 }
 
 h2{
-font-family: quicksand, sans-serif;
+font-family: prestige-elite-std, monospace;
 font-weight: 700;
 font-style: normal;
-font-size: 45px;
-color: #FA7921;
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-top: 10px;
-margin-bottom: 150px;
+flex: 1;
+font-size: 20px;
+color: #B793DB;
+margin-top: 50px;
 }
 
 h3{
