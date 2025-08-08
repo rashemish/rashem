@@ -65,7 +65,7 @@ body {
   padding: 8px 10px;
   text-decoration: none;
   transition: color 0.2s;
-  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .navbar-second a:hover {
