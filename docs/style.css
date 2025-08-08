@@ -4,7 +4,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 70vh;
-  background-color: #EDEBEB;
+/*  background-color: #EDEBEB;*/
+  background-color: pink;
 }
 
 * {
@@ -45,6 +46,29 @@ body {
 }
 
 .navbar a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.navbar-second ul {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+}
+
+.navbar-second a {
+  font-family: caraque-melted, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: 'wdth' 59;
+  font-size: 20px;
+  color: #BDBF00;
+  padding: 8px 10px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navbar-second a:hover {
   background-color: transparent;
   color: white;
 }
