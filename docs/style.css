@@ -4,8 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 70vh;
-/*  background-color: #EDEBEB;*/
-  background-color: pink;
+  background-color: #EDEBEB;
 }
 
 * {
@@ -66,6 +65,7 @@ body {
   padding: 8px 10px;
   text-decoration: none;
   transition: color 0.2s;
+  margin-right: 50px;
 }
 
 .navbar-second a:hover {
