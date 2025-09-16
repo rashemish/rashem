@@ -7,12 +7,6 @@ body {
   background-color: #EDEBEB;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -55,9 +49,9 @@ font-family: bd-caramel-variable, sans-serif;
 }
 
 .navbar-second a {
-font-family: prestige-elite-std, monospace;
-font-weight: 700;
-font-style: normal;
+  font-family: prestige-elite-std, monospace;
+  font-weight: 700;
+  font-style: normal;
   font-variation-settings: 'wdth' 59;
   font-size: 20px;
   color: #0A0903;
@@ -72,128 +66,54 @@ font-style: normal;
   color: white;
 }
 
-.project-section {
-  padding: 30px 20px;
-}
-
-.project-content {
-  display: flex;
-  gap: 40px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.project-images {
-display: flex;
-flex-wrap: wrap;
-gap: 20px;
-flex: 1 1 50%;
-}
-
-.project-images img {
-max-height: 500px;
-width: auto;
-}
-
-.project-text {
-flex: 1 1 40%;
-margin-top: 10px;
-}
-
-.project-text h1 {
-font-family: bd-caramel-variable, sans-serif;
-font-variation-settings: "BUBL" 100;
-font-style: normal;
-font-size: 32px;
-margin-bottom: 20px;
-}
-
-.project-text h2 {
-font-family: bd-caramel-variable, sans-serif;
-font-variation-settings: "BUBL" 100;
-font-style: normal;
-font-size: 20px;
-margin-bottom: 20px;
-}
-
-.project-text p {
-font-size: 13px;
-line-height: 1.6;
-margin-bottom: 20px;
-}
-
-.info-pair {
-  display: flex;
-  gap: 10px; 
-  align-items: baseline;
-  margin-bottom: 10px; 
-}
-
 .hello {
   display: flex;
-  flex-direction: row-reverse; 
-  align-items: flex-start;
-  padding: 70px;
+  flex-direction: row;
+  align-items: center;
+  gap: 70px;
+  padding: 90px;
   max-width: 90%;
   width: fit-content;
-  margin: 20px 0;
 }
 
 .hello-img {
   width: 500px;
   height: auto;
-  position: absolute;
-  right: 150px;
-  top: 100px;
   max-width: 100%;
 }
 
 .hello-text {
-  left: 40px;
   font-family: prestige-elite-std, monospace;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 30px;
   color: #0A0903;
-  width: 600px;
 }
 
-h1{
-font-family: prestige-elite-std, monospace;
-font-weight: 700;
-font-style: normal;
-flex: 1;
-font-size: 30px;
-color: #0A0903;
+.name-text{
+  font-family: prestige-elite-std, monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  color: #B793DB;
 }
 
-h2{
-font-family: prestige-elite-std, monospace;
-font-weight: 700;
-font-style: normal;
-flex: 1;
-font-size: 60px;
-color: #B793DB;
-}
-
-h3{
-font-family: prestige-elite-std, monospace;
-font-weight: 700;
-font-style: normal;
-flex: 1;
-font-size: 20px;
-color: #B793DB;
-margin-top: 50px;
+.email-text{
+  font-family: prestige-elite-std, monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: #B793DB;
 }
 
 .container {
-display: flex;
-flex-wrap: wrap;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 40px 20px;
-max-width: 1200px;
-margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .profile-img {
@@ -222,13 +142,14 @@ margin-top: 30px;
 margin-bottom: 70px;
 }
 
-h4 {
+h1 {
 font-family: bd-caramel-variable, sans-serif;
 font-variation-settings: "BUBL" 500;
 font-style: normal;
 font-size: 30px;
 color: #BDBF00;
 margin-bottom: 10px;
+margin-top: 0px;
 }
 
 p {
@@ -238,6 +159,64 @@ font-style: normal;
 font-size: 12px;
 line-height: 1.6;
 margin-bottom: 10px;
+}
+
+
+.project-section {
+  padding: 30px 20px;
+}
+
+.project-content {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex: 1 1 50%;
+}
+
+.project-images img {
+  max-height: 500px;
+  width: auto;
+}
+
+.project-text {
+  flex: 1 1 40%;
+  margin-top: 10px;
+}
+
+.project-text h1 {
+  font-family: bd-caramel-variable, sans-serif;
+  font-variation-settings: "BUBL" 100;
+  font-style: normal;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.project-text h2 {
+  font-family: bd-caramel-variable, sans-serif;
+  font-variation-settings: "BUBL" 100;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.project-text p {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.info-pair {
+  display: flex;
+  gap: 10px; 
+  align-items: baseline;
+  margin-bottom: 10px; 
 }
 
 .contact a {
