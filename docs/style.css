@@ -296,23 +296,22 @@ font-weight: bold;
   }
 }
 
-body.dark-mode {
-  background-color: #121212;
+.dark-mode {
+  background-color: #232323;
+}
+
+.dark-mode .site-header {
+  background-color: #232323;
+}
+
+.dark-mode .site-header a {
   color: #B894DB;
 }
 
-body.dark-mode a {
-  color: #80cbc4;
+.dark-hello {
+  color: #EDEBEB;
 }
 
-body.dark-mode header,
-body.dark-mode footer {
-  background-color: #121212;
-}
-
-body.dark-mode .navbar a {
-  color: #B793DB;
-}
 
 footer {
 position: fixed;
