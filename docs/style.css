@@ -296,6 +296,24 @@ font-weight: bold;
   }
 }
 
+body.dark-mode {
+  background-color: #121212;
+  color: #B894DB;
+}
+
+body.dark-mode a {
+  color: #80cbc4;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #121212;
+}
+
+body.dark-mode .navbar a {
+  color: #B793DB;
+}
+
 footer {
 position: fixed;
 bottom: 10px;
