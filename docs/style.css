@@ -296,6 +296,23 @@ font-weight: bold;
   }
 }
 
+.dark-mode {
+  background-color: #232323;
+}
+
+.dark-mode .site-header {
+  background-color: #232323;
+}
+
+.dark-mode .site-header a {
+  color: #B894DB;
+}
+
+.dark-hello {
+  color: #EDEBEB;
+}
+
+
 footer {
 position: fixed;
 bottom: 10px;
