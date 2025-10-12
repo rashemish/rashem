@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
 const logo = document.querySelector(".logo");
 const body = document.body;
 const helloText = document.querySelector(".hello-text, #hello-text");
+const helloImg = document.querySelector(".hello-img");
+
 
 //toggle function: changes body, hello-text, and hello-image to darkmode
 if (logo) {
@@ -18,7 +20,7 @@ helloText.classList.toggle("dark-hello"); //toggles darkmode text
 }
 if (helloImg) {
 if (helloImg.src.includes("rashewave2.png")) { //toggles darkmode image
-helloImg.src = "images/rashewave3.png";
+helloImg.src = "images/rashewave1.png";
 } else {
 helloImg.src = "images/rashewave2.png";
 }
