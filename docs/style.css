@@ -315,7 +315,7 @@ font-weight: bold;
 .hello-img {
 width: 300px;
 height: 300px;
-background-image: url("images/rashewave2.svg");
+background-image: url("images/rashewave.svg");
 background-repeat: no-repeat;
 background-size: contain;
 background-position: center;
@@ -323,7 +323,7 @@ transition: background-image 0.3s ease, transform 0.4s ease;
 }
 
 .name-text:hover ~ .hello-img {
-background-image: url("images/rashewave3.svg");
+background-image: url("images/rashewave2.svg");
 transform: translateY(-5px); 
 }
 
@@ -333,6 +333,16 @@ transform: translateY(-5px);
 
 .filter-link.active {
   color: #B894DB;
+}
+
+.grid-item a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.grid-item a:hover .overlay {
+  opacity: 1;
 }
 
 footer {
