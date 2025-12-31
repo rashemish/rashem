@@ -4,13 +4,14 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="style.css"/>
-        <link rel="stylesheet" href="https://use.typekit.net/uzj8ipo.css"/>       
+        <link rel="stylesheet" href="https://use.typekit.net/uzj8ipo.css"/>
         <title>rashe m</title>
         <link rel="icon" type="image/x-icon" href="images/favicon.png"/>
+        <script type="text/javascript" src="darkmode.js"></script>
     </head>
     <body> 
         <header class="site-header">
-            <img src=" images/logo.png" alt="rashe m logo" class="logo" />
+            <img src="images/logo.png" alt="rashe m logo" class="logo" />
             <nav class="navbar">
                 <ul>
                     <li><a href="index.html">home</a></li>
@@ -19,43 +20,64 @@
                 </ul>
             </nav>
         </header>       
+        
         <nav class="navbar-second">           
-           <ul> 
-               <li><a href="work.html" style="color: #FFFFFF;">Show all</a></li>
-               <li><a href="brand.html">Brand</a></li>
-               <li><a href="uiux.html">UI/UX</a></li>
-               <li><a href="illustration.html">Illustration</a></li>
-               <li><a href="dataviz.html">Data Visualization</a></li>
-           </ul>
+            <ul> 
+                <li><a href="#" data-filter="all" class="filter-link active">Show all</a></li>
+                <li><a href="#" data-filter="brand" class="filter-link">Brand</a></li>
+                <li><a href="#" data-filter="uiux" class="filter-link">UI/UX</a></li>
+                <li><a href="#" data-filter="illustration" class="filter-link">Illustration</a></li>
+                <li><a href="#" data-filter="dataviz" class="filter-link">Data Visualization</a></li>
+                <li><a href="#" data-filter="webdev" class="filter-link"> Web Development</a></li>
+            </ul>
         </nav>
+        
         <main class="grid-container">
-            <div class="grid-item">
-                <img src="img1.jpg" alt="Connect RN App" />
-                <div class="overlay">Connect RN</div>
+            <div class="grid-item" data-category="uiux">
+                <a href="uiux_1.html"><img  src="img1.jpg" alt="High fidelity wireframes of Ohai's meal planning feature"/><div class="overlay">Ohai. Meal Planning</div></a>
             </div>
-            <div class="grid-item">
-                <img src="img2.jpg" alt="Medical Dashboard" />
-                <div class="overlay">Medical Dashboard</div>
+            <div class="grid-item" data-category="webdev">
+                <a href="digit400.html"><img  src="img1.jpg" alt="digit 400 data privacy research project"/><div class="overlay">Ohai. Meal Planning</div></a>
+            </div>         
+            <div class="grid-item" data-category="brand">
+                <a><img src="img1.jpg" alt="designed type with abundant color, chunky weight, and bold design"/>
+                <div class="overlay">Tareef</div></a>
             </div>
-            <div class="grid-item">
-                <img src="img3.jpg" alt="Athena Mobile App" />
-                <div class="overlay">Athena Mobile</div>
+            <div class="grid-item" data-category="dataviz">
+                <img src="img1.jpg" alt="Informative and analytical data visualizations of Formula 1 driving"/>
+                <div class="overlay">Formula 1: A Data Analysis</div>
             </div>
-            <div class="grid-item">
-                <img src="img4.jpg" alt="Prescription App" />
-                <div class="overlay">Prescription App</div>
+            <div class="grid-item" data-category="dataviz">
+                <img src="img2.jpg" alt="Informative and colorful data visualization of the environmental state of sea creatures"/>
+                <div class="overlay">Under The Sea</div>
             </div>
-            <div class="grid-item">
-                <img src="img5.jpg" alt="Healthcare Icons" />
-                <div class="overlay">Healthcare Icons</div>
+            <div class="grid-item" data-category="illustration">
+                <img src="img1.jpg" alt="Illustration of two pork roll sandwiches butting heads"/>
+                <div class="overlay">Taylor Ham VS Pork Roll</div>
             </div>
-            <div class="grid-item">
-                <img src="img6.jpg" alt="Caregiver App" />
-                <div class="overlay">Caregiver App</div>
+            <div class="grid-item" data-category="illustration">
+                <img src="img2.jpg" alt="Illustration of actor 'Cole Brings Plenty'"/>
+                <div class="overlay">Cole Brings Plenty</div>
             </div>
-        </main>
+            <div class="grid-item" data-category="illustration">
+                <img src="img3.jpg" alt="Illustrations of a series of signs of protest"/>
+                <div class="overlay">Roe VS Wade: Overturned</div>
+            </div>
+            <div class="grid-item" data-category="illustration">
+                <img src="img4.jpg" alt="Illustration of Taylor Swift album cover"/>
+                <div class="overlay">The Dead Poet Society</div>
+            </div>
+            <div class="grid-item" data-category="illustration">
+                <img src="img5.jpg" alt="Illustration of boy distressed from family vlogging"/>
+                <div class="overlay">The Unethical Side of Family Vlogging</div>
+            </div>
+        </main>   
         <footer>
-            <a> rashe m © 2025 by Raashee Mishra is licensed under CC BY-SA 4.0 </a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"/><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"/><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"/>
-        </footer>
+            <a> rashe m © 2025 by Raashee Mishra is licensed under CC BY-SA 4.0 </a>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"/>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"/>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"/>
+        </footer>        
+        <script src="filter.js"></script>
     </body>
 </html>
