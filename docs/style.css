@@ -251,6 +251,18 @@ p {
   transition: transform 0.3s ease;
 }
 
+.info-pair a {
+  font-family: bd-caramel-variable, sans-serif;
+  font-variation-settings: "BUBL" 500;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.info-pair a:hover {
+  transform: scale(1.03);
+}
+
 .grid-item:hover {
   transform: scale(1.03);
 }
