@@ -145,6 +145,14 @@ body {
 }
 
 h1 {
+    font-family: "bd-caramel-variable", sans-serif;
+    font-variation-settings: 'BUBL' 100;
+    font-size: 50px;
+    color: #129490;
+    margin-bottom: 30px;
+}
+
+h2 {
   font-family: bd-caramel-variable, sans-serif;
   font-variation-settings: "BUBL" 500;
   font-style: normal;
@@ -381,10 +389,60 @@ body.dark-mode footer img {
   opacity: 1;
 }
 
+.blog-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 20px 20px 50px;
+    padding: 2rem 2rem 3rem 2rem;
+}
+
+.blog-post {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+.blog-text {
+    flex: 1 1 650px;
+    min-width: 0;
+    max-width: 700px;
+}
+
+.blog-text h2 {
+    font-family: "bd-caramel-variable", sans-serif;
+    font-variation-settings: 'BUBL' 100;
+    font-size: 30px;
+    line-height: 1;
+    color: #b8bf00;
+    margin-bottom: 1.75rem;
+}
+
+.blog-text p {
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.blog-image {
+    flex: 0 1 280px;
+    max-width: 280px;
+    width: 100%;
+}
+
+.blog-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 footer {
 position: fixed;
 bottom: 10px;
-width: 100%; 
+width: 100%;
 font-family: prestige-elite-std, monospace;
 font-weight: 400;
 font-style: italic;
