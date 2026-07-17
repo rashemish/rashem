@@ -171,6 +171,14 @@ p {
   margin-bottom: 10px;
 }
 
+ul {
+    font-family: prestige-elite-std, monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
 .project-section {
   padding: 30px 20px;
 }
