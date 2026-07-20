@@ -1,46 +1,60 @@
 body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 70vh;
-  background-color: #ECEAEA;
+    margin: 0;
+    font-family: sans-serif;
 }
 
-.site-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 50px; 
-  background-color: #EDEBEB;
-  position: relative;
-  z-index: 9999;
+section {
+    min-height: 100vh;
+    width: 100%;
+    padding: 80px 8%;
+    box-sizing: border-box;
 }
 
-.logo {
-  height: 100px;
-  width: auto;
+html {
+    scroll-behavior: smooth;
 }
 
-.navbar ul {
-  list-style: none;
-  display: flex;
-  gap: 70px;
+#welcome {
+    background: #B5DEAD;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.navbar a {
-  font-family: bd-caramel-variable, sans-serif;
-  font-variation-settings: "BUBL" 500;
-  font-variation-settings: 'wdth' 59;
-  font-size: 40px;
-  color: #B793DB;
-  padding: 8px 10px;
-  text-decoration: none;
-  transition: color 0.2s;
+.name-text {
+    font-family: megumi, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 150px;
 }
 
-.navbar a:hover {
-  color: #232323;
+.intro-text {
+    font-family: area-normal, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#about {
+    background: #2E0014;
+    height: 100vh;
+}
+
+h1{
+    font-family: megumi, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 100px;
+}
+
+.about-text {
+    font-family: area-normal, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #B0CA87;
 }
 
 .navbar-second ul {
@@ -65,39 +79,6 @@ body {
 
 .navbar-second a:hover {
   color: #232323;
-}
-
-.hello {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 70px;
-  padding: 90px;
-  max-width: 90%;
-  width: fit-content;
-}
-
-.hello-img {
-  width: 500px;
-  height: auto;
-  max-width: 100%;
-}
-
-.hello-text {
-  font-family: prestige-elite-std, monospace;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 30px;
-  color: #0A0903;
-}
-
-.name-text{
-  font-family: prestige-elite-std, monospace;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 60px;
-  color: #B793DB;
-  cursor: pointer;
 }
 
 .email-text{
@@ -134,41 +115,6 @@ body {
   object-fit: cover;
   border-radius: 30px;
   border: 1px solid black;
-}
-
-.about-text {
-  flex: 2;
-  padding: 0 60px;
-  min-width: 300px;
-  margin-top: 30px;
-  margin-bottom: 70px;
-}
-
-h1 {
-    font-family: "bd-caramel-variable", sans-serif;
-    font-variation-settings: 'BUBL' 100;
-    font-size: 50px;
-    color: #129490;
-    margin-bottom: 30px;
-}
-
-h2 {
-  font-family: bd-caramel-variable, sans-serif;
-  font-variation-settings: "BUBL" 500;
-  font-style: normal;
-  font-size: 30px;
-  color: #BDBF00;
-  margin-bottom: 10px;
-  margin-top: 0px;
-}
-
-p {
-  font-family: prestige-elite-std, monospace;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 1.6;
-  margin-bottom: 10px;
 }
 
 ul {
@@ -459,4 +405,19 @@ padding: 5px;
 font-size: 15px;
 background-color: transparent;
 color: #BDBF00;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background-image:
+            linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px);
+
+    background-size: 120px 120px;
+
+    pointer-events: none;
+    z-index: 1;
 }
