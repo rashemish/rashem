@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family: sans-serif;
     padding: 0;
     width: 100%;
     overflow-x: hidden;
@@ -27,19 +26,15 @@ html {
     width: 100%;
     z-index: 1000;
     background: transparent;
-    font-family: area-normal, sans-serif;
-    font-weight: 700;
-    font-style: normal;
 }
 
 .navbar ul {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    gap: 4rem;
+    gap: 20rem;
     list-style: none;
     margin: 0;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .navbar li {
@@ -50,6 +45,9 @@ html {
     text-decoration: none;
     transition: transform 0.2s ease, color 0.2s ease;
     color: #809848;
+    font-family: area-normal, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .navbar a:hover {
@@ -58,6 +56,8 @@ html {
 }
 
 #welcome {
+    position: relative;
+    overflow: hidden;
     background: #B5DEAD;
     height: 100vh;
     display: flex;
@@ -67,17 +67,37 @@ html {
     text-align: center;
 }
 
+#welcome::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("/images/rashe-m-home-overlay.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    opacity: 0.4;
+    pointer-events: none;
+    z-index: 0;
+}
+
+#welcome > * {
+    position: relative;
+    z-index: 1;
+}
+
 .name-text {
     font-family: megumi, sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 150px;
+    color: #2E0014;
 }
 
 .intro-text {
     font-family: area-normal, sans-serif;
     font-weight: 700;
     font-style: normal;
+    color: #2E0014;
 }
 
 #about {
@@ -168,30 +188,6 @@ html {
 
 #work {
     background: #B0CA87;
-}
-
-.navbar-second ul {
-  list-style: none;
-  display: flex;
-  gap: 60px;
-  text-align: center;
-}
-
-.navbar-second a {
-  font-family: prestige-elite-std, monospace;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings: 'wdth' 59;
-  font-size: 20px;
-  color: #0A0903;
-  padding: 8px 10px;
-  text-decoration: none;
-  transition: color 0.2s;
-  margin-left: 25px;
-}
-
-.navbar-second a:hover {
-  color: #232323;
 }
 
 .email-text{
