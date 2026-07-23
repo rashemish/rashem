@@ -1,12 +1,10 @@
 const welcome = document.querySelector("#welcome");
 const rippleContainer = document.querySelector(".ripple-container");
 
-// Elements that receive the cursor nudge
 const floatingObjects = document.querySelectorAll(
     ".left-pad img, .group-content"
 );
 
-// Cursor must move this far before another ripple
 const RIPPLE_DISTANCE = 90;
 
 let lastX = 0;
@@ -37,7 +35,6 @@ function createRipple(x, y) {
     const ripple = document.createElement("div");
     ripple.classList.add("ripple");
 
-    // Two rings instead of three
     for (let i = 0; i < 2; i++) {
 
         const ring = document.createElement("div");
@@ -54,7 +51,6 @@ function createRipple(x, y) {
         ring.style.opacity = 0.45 + Math.random() * 0.2;
         ring.style.rotate = `${Math.random() * 360}deg`;
 
-        // stagger the rings
         ring.style.animationDelay = `${i * 0.28}s`;
 
         ripple.appendChild(ring);
@@ -94,7 +90,6 @@ function nudgeObjects(cursorX, cursorY) {
         const moveX = dx * force * 0.10;
         const moveY = dy * force * 0.10;
 
-        // Prevent animation buildup
         object.getAnimations().forEach(animation => animation.cancel());
 
         object.animate(
