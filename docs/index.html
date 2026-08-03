@@ -83,17 +83,20 @@
                 </ul>
             </nav>
             <div class="project-grid">
-                <a href="project1.html" class="project-card uiux web">
-                    <img src="images/project1.jpg" alt="">
-                </a>
-                <a href="project2.html" class="project-card branding">
-                    <img src="images/project2.jpg" alt="">
-                </a>
-                <a href="project3.html" class="project-card motion social">
-                    <img src="images/project3.jpg" alt="">
-                </a>
+                <div class="project-card social web branding" data-image="images/inkling-studios.png">
+                    <img src="images/inkling-studios-logo.png" alt="Inkling Studios">
+                </div>
+                <div class="project-card branding" data-image="images/branding-large.jpg">
+                    <img src="images/branding-thumb.jpg" alt="Branding"></div>
+                <div class="project-card data" data-image="images/f1-large.jpg">
+                    <img src="images/f1-thumb.jpg" alt="F1 Data">
+                </div>
             </div>
         </section>
+        <div id="project-viewer">
+            <button id="close-project">&times;</button>
+            <img id="project-image" src="" alt="">
+        </div>
         <footer>
             rashe m © 2025 by Raashee Mishra is licensed under CC BY-SA 4.0 
             <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"/>
@@ -101,6 +104,5 @@
             <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"/>
         </footer>
         <script src="animation.js"></script>
-        <script type="text/javascript" src="toggle.js"></script>
-    </body>
+        <script src="filter.js"></script>    </body>
 </html>
