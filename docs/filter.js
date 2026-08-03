@@ -1,9 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-
-    /* ----------------------------
-        PROJECT FILTERING
-    ----------------------------- */
-
     const filters = document.querySelectorAll(".filter");
     const cards = document.querySelectorAll(".project-card");
 
@@ -57,10 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
     });
-
-    /* ----------------------------
-        PROJECT VIEWER
-    ----------------------------- */
 
     cards.forEach(card => {
 

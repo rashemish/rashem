@@ -1,3 +1,35 @@
+/* hero animation */
+
+window.addEventListener("DOMContentLoaded", () => {
+    const heroElements = [
+        {
+            element: document.querySelector(".navbar"),
+            delay: 0
+        },
+        {
+            element: document.querySelector(".name-text"),
+            delay: 250
+        },
+        {
+            element: document.querySelector(".intro-text"),
+            delay: 500
+        }
+    ];
+
+    heroElements.forEach(item => {
+
+        if (!item.element) return;
+
+        setTimeout(() => {
+            item.element.classList.add("show");
+        }, item.delay);
+
+    });
+
+});
+
+/* lily pond animation */
+
 const welcome = document.querySelector("#welcome");
 const rippleContainer = document.querySelector(".ripple-container");
 
@@ -115,12 +147,57 @@ function nudgeObjects(cursorX, cursorY) {
 
 }
 
-const nav = document.querySelector("nav");
+/* navbar animation */
+
+const nav = document.querySelector(".navbar");
+
+let lastScroll = 0;
 
 window.addEventListener("scroll", () => {
-    if (window.scrollY > 50) {
+
+    const currentScroll = window.scrollY;
+
+    // Always show at the top of the page
+    if (currentScroll <= 50) {
+        nav.classList.remove("hide");
+        lastScroll = currentScroll;
+        return;
+    }
+
+    // Hide while scrolling down
+    if (currentScroll > lastScroll) {
         nav.classList.add("hide");
-    } else {
+    }
+
+    // Show while scrolling up
+    else {
         nav.classList.remove("hide");
     }
+
+    lastScroll = currentScroll;
+
+});
+
+// Show navbar whenever the mouse is near the top of the screen
+document.addEventListener("mousemove", (e) => {
+
+    if (e.clientY <= 60) {
+        nav.classList.remove("hide");
+    }
+
+});
+
+/* scroll animation */
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+        }
+    });
+},{
+    threshold:0.2
+});
+document.querySelectorAll(".reveal").forEach(element => {
+    observer.observe(element);
 });
