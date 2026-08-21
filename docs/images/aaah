@@ -586,6 +586,7 @@ html {
 #project-viewer{
     position:fixed;
     inset:0;
+    z-index: 2000;
     overflow-y:auto;
     display:flex;
     justify-content:flex-start;
@@ -664,150 +665,12 @@ footer {
     color: #EAFDF8;
 }
 
-/* ============================
-   MOBILE / TABLET (≤768px)
-   ============================ */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 
-    section {
-        padding: 60px 6%;
-    }
-
-    /* --- Navbar --- */
     .navbar ul {
         flex-wrap: wrap;
         justify-content: center;
-        gap: .5rem 1.25rem;
-        padding: 10px 1rem;
-    }
-
-    .navbar a {
-        font-size: .8rem;
-    }
-
-    /* --- Hero / #welcome --- */
-    #welcome {
-        height: 100svh;
-        padding: 0 5%;
-    }
-
-    .name-text {
-        font-size: clamp(2.75rem, 13vw, 5rem);
-        line-height: 1.05;
-    }
-
-    .intro-text {
-        font-size: clamp(.85rem, 3.5vw, 1.1rem);
-        padding: 0 .5rem;
-        line-height: 1.5;
-    }
-
-    .left-pad {
-        width: 130px;
-        left: 2%;
-        bottom: 6%;
-    }
-
-    .lily-group {
-        width: 140px;
-        height: 140px;
-        top: 6%;
-        right: 2%;
-    }
-
-    .lotus {
-        width: 60px;
-    }
-
-    /* --- About --- */
-    #about {
-        padding: 5rem 1.5rem;
-        min-height: auto;
-    }
-
-    .about-container {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
-
-    .about-text {
-        align-items: center;
-        text-align: center;
-    }
-
-    .about-text p {
-        max-width: 100%;
-        font-size: .95rem;
-    }
-
-    .about-image {
-        max-width: 100%;
-    }
-
-    .heading {
-        font-size: clamp(2.5rem, 9vw, 4rem);
-    }
-
-    .social-links svg {
-        width: 48px;
-        height: 48px;
-    }
-
-    /* --- Work --- */
-    #work {
-        padding: 5rem 1.5rem;
-    }
-
-    .work-nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: .75rem 1.25rem;
-        padding: 0;
-    }
-
-    .work-nav a {
-        font-size: .8rem;
-    }
-
-    .project-grid {
-        grid-template-columns: 1fr;
         gap: 1rem;
-    }
-
-    /* --- Project viewer --- */
-    #project-image {
-        width: 92vw;
-    }
-
-    #close-project {
-        top: 1rem;
-        right: 1rem;
-        width: 46px;
-        height: 46px;
-        font-size: 1.5rem;
-    }
-
-}
-
-/* ============================
-   SMALL PHONES (≤480px)
-   ============================ */
-@media (max-width: 480px) {
-
-    .navbar ul {
-        gap: .4rem .9rem;
-    }
-
-    .navbar a {
-        font-size: .7rem;
-    }
-
-    .name-text {
-        font-size: clamp(2.25rem, 15vw, 3.25rem);
-    }
-
-    .work-nav a {
-        font-size: .7rem;
     }
 
 }
