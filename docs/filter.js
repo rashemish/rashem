@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const viewer = document.querySelector("#project-viewer");
     const viewerImage = document.querySelector("#project-image");
     const closeButton = document.querySelector("#close-project");
+    const navbar = document.querySelector(".navbar");
 
     console.log("toggle.js loaded");
     console.log("Cards found:", cards.length);
@@ -62,6 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
             viewerImage.src = card.dataset.image;
 
             viewer.classList.add("open");
+            navbar.classList.add("viewer-open");
 
             document.body.style.overflow = "hidden";
 
@@ -72,6 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function closeViewer() {
 
         viewer.classList.remove("open");
+        navbar.classList.remove("viewer-open");
         document.body.style.overflow = "auto";
 
     }
