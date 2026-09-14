@@ -601,6 +601,7 @@ html {
     backdrop-filter:blur(18px);
     opacity:0;
     visibility:hidden;
+    pointer-events:none;
     transition:
             opacity .35s ease,
             visibility .35s ease;
@@ -609,6 +610,7 @@ html {
 #project-viewer.open{
     opacity:1;
     visibility:visible;
+    pointer-events:auto;
 }
 
 #project-image{
