@@ -1,0 +1,85 @@
+/* ============ 1. Tokens & base ============ */
+:root{--bg:#645F06;--tan:#DDCA7D;--hover:#FAD156;--foot:#585305;--dim:rgba(221,202,125,.55);--line:rgba(221,202,125,.3);--shade:rgba(0,0,0,.22);--side:245px;--nav:115px;--font:"Instrument Serif",Georgia,serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:var(--nav)}
+body{background:var(--bg);color:var(--tan);font:20px/1.1 var(--font)}
+a{color:inherit;text-decoration:none}
+a:hover{text-decoration:underline}           /* every link underlines on hover… */
+.nav a:hover{text-decoration:none}           /* …except the main nav */
+img{display:block;width:100%;height:100%;object-fit:cover}
+ul{list-style:none}
+h1,h2,h3,strong,em{font-weight:400;font-style:normal}
+h2{font-size:45px;line-height:.95}
+small{font-size:16px}
+.label,.row small,.row em,.intro p{color:var(--dim)}
+
+/* ============ 2. Fixed chrome ============ */
+.staff{background:repeating-linear-gradient(var(--line) 0 1px,transparent 1px 12px) 0 var(--staff-y,40px)/100% 49px no-repeat}
+.nav{position:fixed;inset:0 0 auto 0;height:var(--nav);z-index:10;display:flex;justify-content:space-around;align-items:center;padding:0 40px 0 var(--side);background-color:var(--bg);border-bottom:1px solid var(--shade)}
+.nav a{font-size:40px;color:var(--tan);transition:color .25s}
+.nav a:hover,.nav a.active{color:var(--hover)}   /* hover & selected = FAD156 */
+
+.side{position:fixed;inset:0 auto 0 0;width:var(--side);padding:calc(var(--nav) + 26px) 42px 80px;display:flex;flex-direction:column}
+.av{display:block;width:100px;height:100px;border-radius:50%;background:var(--tan);overflow:hidden}
+.name{font-size:52px;line-height:.95;margin:22px 0 38px;max-width:100px}
+.links li{font-size:17px;text-transform:uppercase;margin-bottom:11px}
+.mail{font-size:15px;margin-top:4px}
+.no-btn .mail{margin-top:auto}
+.btn{margin-top:auto;display:grid;place-items:center;height:61px;background:var(--tan);color:var(--bg)}
+
+/* ============ 3. Page frame ============ */
+main{margin-left:var(--side);padding:var(--nav) 52px 0 13px}
+
+/* ============ 4. Home + Work ============ */
+#home{height:calc(100vh - var(--nav));min-height:480px;padding:43px 0 53px}
+.home-grid{height:100%;display:grid;gap:23px;grid-template:"a b c" 55fr "a d d" 45fr/1.72fr 2fr .87fr}
+.tile{background:var(--tan);overflow:hidden}
+.tile:nth-child(1){grid-area:a}.tile:nth-child(2){grid-area:b}.tile:nth-child(3){grid-area:c}.tile:nth-child(4){grid-area:d}
+.work{display:grid;grid-template-columns:172px 1fr;align-content:start;min-height:100vh;padding:34px 0 60px;border-top:1px solid var(--shade)}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:23px}
+.card{position:relative;display:block;aspect-ratio:1.61;background:var(--tan);overflow:hidden}
+.card span{position:absolute;inset:auto 0 0;padding:10px 14px;background:var(--bg);opacity:0;transition:opacity .2s}
+.card:hover span{opacity:1}
+
+/* ============ 5. Lists (About + Recruiter) ============ */
+.rows{border-bottom:1px solid var(--shade)}
+.row{display:flex;justify-content:space-between;align-items:center;min-height:64px;padding:8px 6px 8px 0;border-top:1px solid var(--shade)}
+.row strong,.row small{display:block}
+.row em{font-size:16px}
+.compact .row{min-height:36px}.compact .row small{display:none}
+.recruiter .intro h1{font-size:50px;line-height:1}
+.recruiter .intro p{font-size:16px;margin:4px 0 26px}
+.recruiter h3{font-size:20px;margin-bottom:12px}
+.recruiter .rows{margin-bottom:44px}
+
+/* ============ 6. About ============ */
+.about{display:grid;grid-template-columns:172px minmax(0,503px) 1fr;padding-top:25px}
+.about h3{font-size:34px;margin-bottom:16px}
+.about p{font-size:18px;line-height:1.05;margin-bottom:46px}
+.about-media{display:flex;flex-direction:column;gap:26px;width:302px;justify-self:end}
+.about-media figure{aspect-ratio:1.09;background:var(--tan);overflow:hidden}
+
+/* ============ 7. Project page ============ */
+[data-page=project] main{margin-left:calc(var(--side) + 49px);padding:70px 0 0 136px;max-width:656px}
+[data-page=project] .foot{margin-left:calc(var(--side) + 49px)}
+.rail{position:fixed;inset:0 auto 0 var(--side);width:49px;display:flex;flex-direction:column;justify-content:space-around;align-items:center;font-size:36px;background:linear-gradient(var(--line),var(--line)) 0 0/1px 100%,linear-gradient(var(--line),var(--line)) 12px 0/1px 100%,linear-gradient(var(--line),var(--line)) 36px 0/1px 100%,linear-gradient(var(--line),var(--line)) 48px 0/1px 100%;background-repeat:no-repeat}
+.rail a{color:var(--dim);transition:color .2s}
+.rail a.on{color:var(--hover)}
+.back{display:inline-block;font-size:17px;margin-bottom:16px}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;padding:18px;background:var(--tan);color:var(--bg);font-size:12px;margin-bottom:34px}
+.info small{display:block;font-size:10px;opacity:.6;text-transform:uppercase}
+[data-page=project] section{margin-bottom:46px}
+[data-page=project] h2{font-size:36px;margin:2px 0 22px}
+[data-page=project] p{font-size:18px;line-height:1.05;margin-bottom:22px}
+[data-page=project] figure{aspect-ratio:1.85;background:var(--tan);overflow:hidden;margin-bottom:24px}
+
+/* ============ 8. Footer (all pages) ============ */
+.foot{margin-left:var(--side);margin-top:50px;background:var(--foot)}
+.foot-bar{--staff-y:0px;display:flex;justify-content:space-between;align-items:center;height:49px;padding:0 34px;font-size:17px;text-transform:uppercase}
+.foot-main{display:flex;justify-content:space-between;align-items:flex-end;padding:90px 34px 24px}
+.brand{display:flex;align-items:center;gap:12px;font-size:28px}
+.brand .av{width:48px;height:48px}
+.socials{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:20px}
+.socials a{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--tan);color:var(--bg);font-size:15px}
+.socials small{flex-basis:100%;text-align:right;font-size:11px;color:var(--dim);margin-top:-8px}
+.center{min-height:70vh;display:grid;place-content:center}
