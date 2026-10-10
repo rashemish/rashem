@@ -4,7 +4,7 @@
    =========================================================== */
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
-const { nav, links, socials, projects, experience } = SITE;
+const { nav, links, socials, projects, tables } = SITE;
 const page = document.body.dataset.page;   // home | about | recruiter | project | construction
 const params = new URLSearchParams(location.search);
 const projectHref = (p, from) => `project.html?p=${p.slug}${from ? "&from=" + from : ""}`;
@@ -12,8 +12,8 @@ const img = (src, alt = "") => `<img src="${src}" alt="${alt}" onerror="this.rem
 
 /* ---------- 1. Shared layout ---------- */
 const btn = {
-  recruiter: `<a class="btn" href="recruiter.html">Recruiter Mode</a>`,
-  exit: `<a class="btn" href="index.html">Exit</a>`
+    recruiter: `<a class="btn" href="recruiter.html">Recruiter Mode</a>`,
+    exit: `<a class="btn" href="index.html">Exit</a>`
 }[document.body.dataset.button] || "";
 const activeKey = { recruiter: "work" }[page] || page;
 const nextKey = { home: "work", recruiter: "work", project: "work" }[page] || page;
@@ -43,10 +43,11 @@ document.body.insertAdjacentHTML("beforeend", `
 
 /* ---------- 2. Lists & cards from data ---------- */
 const row = (title, sub, meta, href) => {
-  const tag = href ? `a href="${href}"` : "div";
-  return `<${tag} class="row"><span><strong>${title}</strong>${sub ? `<small>${sub}</small>` : ""}</span><em>${meta || ""}</em></${href ? "a" : "div"}>`;
+    const tag = href ? `a href="${href}"` : "div";
+    return `<${tag} class="row"><span><strong>${title}</strong>${sub ? `<small>${sub}</small>` : ""}</span><em>${meta || ""}</em></${href ? "a" : "div"}>`;
 };
-$$("[data-list=experience]").forEach(el => el.innerHTML = experience.map(e => row(...e)).join(""));
+// Any element with data-table="name" is filled from SITE.tables[name]
+$$("[data-table]").forEach(el => el.innerHTML = tables[el.dataset.table].map(e => row(...e)).join(""));
 $$("[data-list=projects]").forEach(el => el.innerHTML = projects.map(p => row(p.title, p.sub, p.meta, projectHref(p, el.dataset.from))).join(""));
 $$("[data-cards]").forEach(el => el.innerHTML = projects.map(p => `<a class="card" href="${projectHref(p, el.dataset.from)}">${img(p.thumb, p.title)}<span>${p.title}</span></a>`).join(""));
 
@@ -54,25 +55,25 @@ $$("[data-cards]").forEach(el => el.innerHTML = projects.map(p => `<a class="car
 const setActive = k => $$(".nav a").forEach(a => a.classList.toggle("active", a.dataset.key === k));
 setActive(activeKey);
 if (page === "home") {
-  const spy = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && setActive(e.target.id)), { rootMargin: "-50% 0px -50% 0px" });
-  $$("#home, #work").forEach(s => spy.observe(s));
+    const spy = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && setActive(e.target.id)), { rootMargin: "-50% 0px -50% 0px" });
+    $$("#home, #work").forEach(s => spy.observe(s));
 }
 
 /* ---------- 4. Project page (one template, many projects) ---------- */
 if (page === "project") {
-  const p = projects.find(x => x.slug === params.get("p")) || projects[0];
-  const back = params.get("from") === "recruiter" ? "recruiter.html" : "index.html#work";
-  const block = b => typeof b === "string" ? `<p>${b}</p>` : `<figure>${img(b.img, b.alt)}</figure>`;
-  document.title = `${p.title} — ${SITE.name}`;
-  $("main").innerHTML =
-    `<a class="back" href="${back}"><i class="bi bi-arrow-left"></i> BACK TO ALL WORK</a>
+    const p = projects.find(x => x.slug === params.get("p")) || projects[0];
+    const back = params.get("from") === "recruiter" ? "recruiter.html" : "index.html#work";
+    const block = b => typeof b === "string" ? `<p>${b}</p>` : `<figure>${img(b.img, b.alt)}</figure>`;
+    document.title = `${p.title} — ${SITE.name}`;
+    $("main").innerHTML =
+        `<a class="back" href="${back}"><i class="bi bi-arrow-left"></i> BACK TO ALL WORK</a>
      <div class="info">${p.info.map(([k, v]) => `<div><small>${k}</small>${v}</div>`).join("")}</div>` +
-    p.sections.map((s, i) => `<section id="s${i + 1}">${s.label ? `<small class="label">${s.label}</small>` : ""}<h2>${s.heading}</h2>${s.content.map(block).join("")}</section>`).join("");
+        p.sections.map((s, i) => `<section id="s${i + 1}">${s.label ? `<small class="label">${s.label}</small>` : ""}<h2>${s.heading}</h2>${s.content.map(block).join("")}</section>`).join("");
 
-  // Numbered rail on the left; the number for the section in view lights up
-  document.body.insertAdjacentHTML("afterbegin", `<nav class="rail">${p.sections.map((_, i) => `<a href="#s${i + 1}">${i + 1}</a>`).join("")}</nav>`);
-  const nums = $$(".rail a");
-  const io = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && nums.forEach(a => a.classList.toggle("on", a.hash === "#" + e.target.id))), { rootMargin: "-35% 0px -60% 0px" });
-  $$("main section").forEach(s => io.observe(s));
-  nums[0]?.classList.add("on");
+    // Numbered rail on the left; the number for the section in view lights up
+    document.body.insertAdjacentHTML("afterbegin", `<nav class="rail">${p.sections.map((_, i) => `<a href="#s${i + 1}">${i + 1}</a>`).join("")}</nav>`);
+    const nums = $$(".rail a");
+    const io = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && nums.forEach(a => a.classList.toggle("on", a.hash === "#" + e.target.id))), { rootMargin: "-35% 0px -60% 0px" });
+    $$("main section").forEach(s => io.observe(s));
+    nums[0]?.classList.add("on");
 }
